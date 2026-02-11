@@ -1,0 +1,67 @@
+local repstorage = game:GetService("ReplicatedStorage")
+local players = game:GetService("Players")
+local remoteevent = repstorage:WaitForChild("RemoteEvent")
+local tasks = require(repstorage.Tasks)
+local playerstasks = {}
+
+local function monitorTask(player, taskValue)
+	taskValue.Changed:Connect(function()
+		if taskValue.Value == true then
+			print("Task completed: " .. taskValue.Name)
+			-- other code here
+		end
+	end)
+end
+
+
+-- When player joins, give them tasks
+players.PlayerAdded:Connect(function(player)
+	playerstasks[player.UserId] = {}
+	while #playerstasks[player.UserId] < 3 do
+		local random = math.random(1, #tasks)
+		if not table.find(playerstasks[player.UserId], tasks[random]) then
+			table.insert(playerstasks[player.UserId], tasks[random])
+			local addvalue = Instance.new("BoolValue") --create value to monitor tasks if it been completed
+			addvalue.Name = tasks[random].Tasks
+			addvalue.Parent = player
+
+			-- Monitor this task
+			monitorTask(player, addvalue)
+		end
+		task.wait(0.025)
+	end
+
+	print("Player:", player.Name, "Tasks: ", playerstasks[player.UserId])
+end)
+
+
+players.PlayerRemoving:Connect(function(player) --clean list to prevent memory leak
+	playerstasks[player.UserId] = nil
+end)
+
+
+	--[[ USE THIS FOR LATER
+	local test = "Delivery"
+	for i, playerTask in ipairs(playerstasks[player.UserId]) do
+		if playerTask["Tasks"] == test then
+			print("Removing: " .. test)
+			table.remove(playerstasks[player.UserId], i)
+			break
+		end
+	end
+	local test = "Delivery"
+	
+	if table.find(playerstasks[player.UserId], test) then
+		print("Found")
+	end
+-- When player completes a tas [GOING TO BE REWORKED]
+remoteevent.OnServerEvent:Connect(function(player, taskIndex)
+	local userId = player.UserId
+	print("Received: ", player,taskIndex)
+
+	if playerstasks[userId] and playerstasks[userId][taskIndex] then
+		print(player.Name .. " completed: " .. playerstasks[userId][taskIndex].Tasks)
+		table.remove(playerstasks[userId], taskIndex)
+
+	end
+end)]]
