@@ -54,9 +54,31 @@
 + Burnout
 + Lack of time 
 
+### Week 3-4 Review
+
+**What we completed**
+
+**Sprint Backlog**
+
+**In general**
+
+**What's next**
+
+**Problem faced**
+
 # Project Design
 <img width="1293" height="791" alt="image" src="https://github.com/user-attachments/assets/c3004389-9b71-479a-9998-c469ac0a712b" />
 
 # Project Management
 # Tools used
 # Test plan
+
+Two Types of Test
+Manual: Requires User Input to activate
+Automatic: Can be activated with no issue.
+| What's being tested | How is it being tested | What should happen | What actually happened | Evidence | Comment |
+| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Database | Joining | When joining it creates data for the player | Done exactly like that | ---------------- | ---------------- |
+| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+
