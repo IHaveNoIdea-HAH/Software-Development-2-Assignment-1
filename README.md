@@ -67,7 +67,47 @@
 **Problem faced**
 
 # Project Design
+
+This is the part where the design choices for creating the game are made.
+Exploring the overall design, devleopment strategies, the game story, characters, encironment, levels, gameplay and more.
+
+---
+
+## Overall Design
+### Atmosphere
++ The Game will be a horror simulator game, with objectives to do and creatures roaming around.
++ Every time a player dies they experience consequences.
+
+### Development Strategy
+
+**Methodology: Agile/Scrum**
+
+### Game Story
+
+### Characters
+
+### Reward & Challenges
+
+### Game rules
+
+### State Diagram
+
+### Programming & Platform
+
+### Map
 <img width="1293" height="791" alt="image" src="https://github.com/user-attachments/assets/c3004389-9b71-479a-9998-c469ac0a712b" />
+### Extra
+
+<details>
+  <summary>Click to expand</summary>
+
+  This content is hidden until clicked.
+  
+  You can put **markdown** here too!
+
+</details>
+
+
 
 # Project Management
 # Tools used
