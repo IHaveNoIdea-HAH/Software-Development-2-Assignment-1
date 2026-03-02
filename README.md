@@ -82,6 +82,10 @@ Exploring the overall design, devleopment strategies, the game story, characters
 
 **Methodology: Agile/Scrum**
 
+Agile/Scrum methodology is zz
+The type of methodology that will be used during
+
+
 ### Game Story
 
 ### Characters
