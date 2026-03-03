@@ -30,6 +30,8 @@
 ## Sprint Backlog
 ### Week 1-2 Review
 
+**6th February 2026 - 20th February**
+
 **What we completed**
 
 **Sprint Backlog**
@@ -55,6 +57,8 @@
 + Lack of time 
 
 ### Week 3-4 Review
+
+**21 February 2026 - 7th March 2026 **
 
 **What we completed**
 
@@ -114,7 +118,18 @@ The type of methodology that will be used during
 
 
 # Project Management
+
+Input Backlog, meetings
+sprint backlog?
+
 # Tools used
+
+The game was created on the Platform called "Roblox". Where thousands of games created by millions are stored in Roblox Servers. The way players create games is through Roblox Studio, a 3d Space where players can build anything and code with the customised lanaguage of LUA created by Roblox called LUAU.
+
+Game engine: LUAU used by Roblox
+
+Game Hosted: Roblox Platform
+
 # Test plan
 
 Two Types of Test
@@ -122,7 +137,7 @@ Manual: Requires User Input to activate
 Automatic: Can be activated with no issue.
 | What's being tested | How is it being tested | What should happen | What actually happened | Evidence | Comment |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| Database | Joining | When joining it creates data for the player | Done exactly like that | ---------------- | ---------------- |
-| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Database | Joining | When joining it creates data for the player | Done exactly like that | ---------------- | N/A |
+| Day & Night System | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 
