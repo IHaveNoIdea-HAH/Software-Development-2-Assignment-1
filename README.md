@@ -8,7 +8,7 @@
 | User Requirement | What needs to be done | Acceptenance Criteria |
 | ---------------- | ---------------- | ---------------- |
 | Gameplay loop | As a player, I want to receive 5-15 objectives each shift that require 2-5 minutes each to complete. <br> <br> So that i have a clear set of tasks that I can complete during the 30 minute shift. | A list of randomise objectives given to the player. <br> <br> Objectives can be completed within 30 minutes while still having enough free time to roam around and explore. <br><br> Objectives have different types like cleaning, npc quests, etc). <br> <br> Random events occuring at random. |
-| Interactive NPC | ---------------- | ---------------- |
+| Interactive NPC | As a  | ---------------- |
 | Enemies | Enemies that chase the player when in a certain distance, and attacks players. When no players, roam around the map | AI walks, Roams around, follows players, attacks player by damaging |
 | Objectives | A list of objectives players can do to get paid at the end | A list of Side Tasks, Main Tasks, Extra Tasks |
 | Shop | ---------------- | ---------------- |
@@ -61,6 +61,34 @@
 **21 February 2026 - 7th March 2026 **
 
 **What we completed**
++ UI showing objective
+
+
+**Sprint Backlog**
+
+
+
+**In general**
++ Made objectives be connected to the UI
++ Completed a bit of the map
+
+
+**What's next**
++ NPC Giving side quests
++ Rework AI Pathfinding
++ Complete more of the map
++ Script more objectives.
+
+
+**Problem faced**
++ Ai Pathfinding
++ Lack of time
+
+### Week 5 Review
+
+**21 February 2026 - 7th March 2026 **
+
+**What we completed**
 
 **Sprint Backlog**
 
@@ -69,6 +97,7 @@
 **What's next**
 
 **Problem faced**
+
 
 # Project Design
 
