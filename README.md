@@ -17,9 +17,9 @@
 ## System Requirements
 | System Requirement | What needs to be done | Acceptenance Criteria |
 | ---------------- | ---------------- | ---------------- |
-| Day and night System | ---------------- | ---------------- |
-| Paycheck | ---------------- | ---------------- |
-| Database | ---------------- | ---------------- |
+| Day and night System | As a developer, I want a day and night system acting as a round system to give players a break. So that it feels like a real job | Day and night must last 30 minutes combined. By the end of the day the players get a paycheck. |
+| Paycheck | As a developer, I want a paycheck that occurs at the end of the day, depending on how many objectives they completed. If the player fails to complete half of the objectives they get punished. So it gives reason for players to do objectives instead of doing nothing, and to reward those that do all the objectives | Total of objectives the player has will be half and rounded up to the highest number is the total of objetives they need to complete. The punishment must be punishing enough to emit fear but fair enough. |
+| Database | As a developer, I want to store players data on Roblox Servers through using their api. So I can make players data to be used in game. Example: Money, that will be used in shops. | Data being stored, can be retrieved, and is separate for every other player. |
 | ---------------- | ---------------- | ---------------- |
 | ---------------- | ---------------- | ---------------- |
 
