@@ -86,7 +86,7 @@
 
 ### Week 5 Review
 
-**21 February 2026 - 7th March 2026 **
+**7 February 2026 - 14th March 2026**
 
 **What we completed**
 
@@ -125,7 +125,32 @@ The type of methodology that will be used during
 
 ### Reward & Challenges
 
+<h4><u>Rewards</u></h4>
+
+Players are given a random amount of objectives to do.
+
+Objectives are combined into three categories.
+
+**Main Objectives**
+
+These objectives mainly revolve around the entities.
+
+They give higher rwards when completed.
+
+**Side Objectives**
+These objectives involve the facility itself.
+It includes cleaning around the facility, restocking supplies, etc.
+These don't give much reward. However there's more objectives than main.
+
+**Requests**
+These are objectives that are given by NPC and are specific to their respected NPC.
+They give random rewards, Some Higher than main objective, some lower than side objectives.
+
+<h1><u>Challenges</u></h1>
+
+
 ### Game rules
+No exploiting
 
 ### State Diagram
 
@@ -167,6 +192,7 @@ Automatic: Can be activated with no issue.
 | What's being tested | How is it being tested | What should happen | What actually happened | Evidence | Comment |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | Database | Joining | When joining it creates data for the player | Done exactly like that | <img width="1478" height="651" alt="image" src="https://github.com/user-attachments/assets/8b132417-1b69-46f8-974d-f482e3592dd6" /> <br> <br>  <img width="710" height="600" alt="image" src="https://github.com/user-attachments/assets/3a97a951-1f66-43ea-aea6-bf84a4b9cabf" /> | N/A |
+| Database saving | Leaving and seeing if data been saved | When leaving a message in the server should say the data been saved. Checking the database the information should be updated | No Issue | <img width="982" height="69" alt="image" src="https://github.com/user-attachments/assets/cf3a092f-a1b3-4823-9c45-c342da9bfa7f" /> <br> <br> Before: <img width="644" height="398" alt="image" src="https://github.com/user-attachments/assets/b2a84381-966c-411c-91b6-e489d48da4f9" /> <br> <br> After: <img width="672" height="626" alt="image" src="https://github.com/user-attachments/assets/9f3de3b6-f704-4de5-871e-4c25dc5f0f3c" /> | ---------------- |
 | Day & Night System | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 
