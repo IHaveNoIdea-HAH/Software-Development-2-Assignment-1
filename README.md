@@ -150,26 +150,38 @@ Risk of escaping:
 
 Classified: Animated or non-animate
 
----
-
 Final Designation: E-111A
 
-Name: Skin Keeper/Mimic
+---
 
-Danger level: 3
+E-134A
 
-Risk of escaping: 4
-
-Classified: Animated
-
-Designation: E-134A (Designated number, Danger Level, Risk of Escaping, Classificatiion)
-
-info:
+<details>
+  
+  
+  <summary>Click to expand</summary>
+  <br>
+  Name: Skin Keeper/Mimic
+  <br>
+  Danger level: 3
+  <br>
+  Risk of escaping: 4
+  <br>
+  Classified: Animated
+  <br>
+  Designation: E-134A (Designated number, Danger Level, Risk of Escaping, Classificatiion)
+  <br><br>
+  info:  <br>
 E-134A is a humanoid shape figure covered in an unknown black liquid substance. 
 
 E-134A normally has skin attached to their body, the skin is from their last victim they stole it from. A unique property of E-134A is the skin it steals rot faster than normal.
 
 E-134A is generally docile. However when the skin decays to a certain degree, it will become hostile and hunt for humans, ignore animals unless attacked by one. When reaching its target, it will kill and take the skin and wear it. After enough skin has been collected, E-134A will become docile agaiin.
+
+</details>
+
+
+
 ---
 
 Name: The Skinny Camoflauage
