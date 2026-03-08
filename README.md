@@ -1,6 +1,4 @@
-# Software Development 2 Sprint 1
-
-# Game Design Document
+# Software Development 2 Sprint 1 / Game Design Document
 
 # User/System Requirements
 
@@ -115,13 +113,109 @@ Exploring the overall design, devleopment strategies, the game story, characters
 
 **Methodology: Agile/Scrum**
 
-Agile/Scrum methodology is zz
-The type of methodology that will be used during
-
+Agile/Scrum methodology
+The Project will follow the agile Methodology. Using Scrum Framework.
+Agile Methodology is used in software development. Where people focus in delivering small parts of the projects and thinking
 
 ### Game Story
 
+
+Once in a peaceful world, suddenly turned chaotic during an eclipse. As creatures began manifesting from the dark. Causing terror across the globe. Humanity military were deployed to deal with the new threeat, all attempts were in vain as the creatures were too vast in numbers and powers. Causing humanity to create an Organization called the (CRC) to Contain, Research and Combat the creatures found in the world in hopes to restore peace in the world. 
+
+CRC
+Contain: Contain all entities found in the wild.
+Research: Research all information about the entities.
+Combat: Combat all entities for a better future
+
+
+
 ### Characters
+
+
+
+
+**Entities contained in the facility**
+
+Each entity will be Catelogged using this
+
+Number: Assigned Number 
+
+Danger level: 
++ 1 being not aggressive
++ 5 being super aggressive
+
+Risk of escaping:
++ 1 being unlikely they'll escape
++ 5 being monitor at all times
+
+Classified: Animated or non-animate
+
+---
+
+Final Designation: E-111A
+
+Name: Skin Keeper/Mimic
+
+Danger level: 3
+
+Risk of escaping: 4
+
+Classified: Animated
+
+Designation: E-134A (Designated number, Danger Level, Risk of Escaping, Classificatiion)
+
+info:
+E-134A is a humanoid shape figure covered in an unknown black liquid substance. 
+
+E-134A normally has skin attached to their body, the skin is from their last victim they stole it from. A unique property of E-134A is the skin it steals rot faster than normal.
+
+E-134A is generally docile. However when the skin decays to a certain degree, it will become hostile and hunt for humans, ignore animals unless attacked by one. When reaching its target, it will kill and take the skin and wear it. After enough skin has been collected, E-134A will become docile agaiin.
+---
+
+Name: The Skinny Camoflauage
+
+Danger level: 3
+
+Risk of escaping: 3
+
+Classified: Animated
+
+Designation: E-233A
+
+
+Info:
+
+E-223A is a humanoid shape figure covered in an unknown black liquid substance. Skin Keeper normally has skin attached to their body, the skin is from their last victim they stole it from.
+
+---
+
+Name: The Wise Banana
+
+Danger level: 1
+
+Risk of escaping: 1
+
+Classified: Non-Animated
+
+Designation: E-311NA
+
+info:
+
+---
+
+Name: The unknown
+
+Danger level: 4
+
+Risk of escaping: 1
+
+Classified: Non-Animated
+
+Designation: E-441A
+
+Info
+
+---
 
 ### Reward & Challenges
 
@@ -137,20 +231,51 @@ These objectives mainly revolve around the entities.
 
 They give higher rwards when completed.
 
+
 **Side Objectives**
+
 These objectives involve the facility itself.
+
 It includes cleaning around the facility, restocking supplies, etc.
+
 These don't give much reward. However there's more objectives than main.
 
 **Requests**
+
 These are objectives that are given by NPC and are specific to their respected NPC.
+
 They give random rewards, Some Higher than main objective, some lower than side objectives.
+
+---
 
 <h1><u>Challenges</u></h1>
 
+**Consequences**
+
+The Consequence occur when
++  you fail to complete half of the total Objectives
++  You die
+
+If any of these occur, your "RiskOfFiring" will be increased by one
+
+The consequences is getting you money taken away and you getting kicked from the game if you cannot pay back the amount of value you owe --REDO THIS PART FUTURE ME
+
+**Entities**
+
+There will be multiple entities in the game with different mechanics. So players will have to learn how to adapt to them
+
+Each entity will have a risk of escaping **(RIE)** value that is 1-100. The RIE can be increase and decrease by certain actions, however, the RIE will increase passviely regardless of any player input. Meaning entities must be monitored at all times.
+
+
+
+
+
+
+---
 
 ### Game rules
-No exploiting
+
+
 
 ### State Diagram
 
@@ -162,7 +287,7 @@ No exploiting
 
 <details>
   <summary>Click to expand</summary>
-
+  
   This content is hidden until clicked.
   
   You can put **markdown** here too!
