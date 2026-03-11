@@ -5,10 +5,13 @@
 The project is to develop a game.
 The game I'm developing is a horror simulator game where you work inside a government facility as scientist. In a world filled with different creaures your goal is to research said creatures contained in the facility while doing objectives.
 
+Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation which is a fictiona organization that contains stories from writiers contributing to a wiki contain different creatures.
 
+## Table of Contents
+- [User & System Requirements](#User/System-Requirements)
+- [Section Two](#section-two)
+- [Section Three](#section-three)
 
-
-Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation which is a fiction organization that contains stories from writiers contributing to a wiki contain different creatures.
 
 # User/System Requirements
 
@@ -172,6 +175,7 @@ E-134A
   <summary>Click to expand</summary>
   <br>
   Name: Skin Keeper/Mimic
+  
   <br>
   Danger level: 3
   <br>
