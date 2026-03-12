@@ -16,24 +16,74 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 # 1.0 User/System Requirements
 
 ## 1.1 User requirements
+
 | | |
 |---|---|
-| **Title** | 1 |
+| **Title** | Gameplay loop |
 | **Sprint #** | 1 |
-| **Priority** | HIGH |
+| **Priority** | Very High |
 | **Difficulty** | MEDIUM |
-| **Story Points** | x |
+| **Story Points** | 5 |
 
 ### Story
+As a player, I want to receive 5-15 objectives each shift that require 2-5 minutes each to complete.
+As well as a Reward and Punishment system..
+
+So that i have a clear set of tasks that I can complete during the 30 minute shift. And a goal to reach while trying to be efficient with time 
 
 ### Definition of Done
-- [ ] Objectives generate randomly at shift start
+-  Objectives generate randomly at shift start
+-  Objectives can be completed within 30 minutes while still having enough free time to roam around and explore.
+-  Random events occuring at random wihthin the 30 minute time.
+-  Objectives have two types. Objectivee given by System and NPC Quests.
+-  By the end of the day players are rewarded or punished based on performance.
 
+---
+
+---
+
+| | |
+|---|---|
+| **Title** | Interactive NPC |
+| **Sprint #** | 1 |
+| **Priority** |  High |
+| **Difficulty** | MEDIUM / Low High |
+| **Story Points** | 6 |
+
+### Story
+As a player, I want to be capable of interacting with different characters inside the gamme.
+
+So I can learn more about the world building and hidden lore. As well as to learn more about the characters.
+
+### Definition of Done
+-  Certain NPC can be interacted with
+-  Some NPC may give tasks to do
+-  Entities can be talk to as well.
+
+---
+
+---
+
+| | |
+|---|---|
+| **Title** | Enemies |
+| **Sprint #** | 1 |
+| **Priority** |  High |
+| **Difficulty** | MEDIUM / Low High |
+| **Story Points** | 5 |
+
+### Story
+As a player, I want Enemies that chase around the player,
+### Definition of Done
+-  Certain NPC can be interacted with
+-  Some NPC may give tasks to do
+-  Entities can be talk to as well.
+
+---
 
 | User Requirement | What needs to be done | Acceptenance Criteria |
 | ---------------- | ---------------- | ---------------- |
-| Gameplay loop | As a player, I want to receive 5-15 objectives each shift that require 2-5 minutes each to complete. <br> <br> So that i have a clear set of tasks that I can complete during the 30 minute shift. | A list of randomise objectives given to the player. <br> <br> Objectives can be completed within 30 minutes while still having enough free time to roam around and explore. <br><br> Objectives have different types like cleaning, npc quests, etc). <br> <br> Random events occuring at random. |
-| Interactive NPC | As a  | ---------------- |
+
 | Enemies | Enemies that chase the player when in a certain distance, and attacks players. When no players, roam around the map | AI walks, Roams around, follows players, attacks player by damaging |
 | Objectives | A list of objectives players can do to get paid at the end | A list of Side Tasks, Main Tasks, Extra Tasks |
 | Shop | ---------------- | ---------------- |
@@ -109,7 +159,7 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 + Ai Pathfinding
 + Lack of time
 
-### 2.1.3Week 5 Review
+### 2.1.3 Week 5 Review
 
 **7 February 2026 - 14th March 2026**
 
