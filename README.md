@@ -13,9 +13,23 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 - [Section Three](#section-three)
 
 
-# User/System Requirements
+# 1.0 User/System Requirements
 
-## User requirements
+## 1.1 User requirements
+| | |
+|---|---|
+| **Title** | 1 |
+| **Sprint #** | 1 |
+| **Priority** | HIGH |
+| **Difficulty** | MEDIUM |
+| **Story Points** | x |
+
+### Story
+
+### Definition of Done
+- [ ] Objectives generate randomly at shift start
+
+
 | User Requirement | What needs to be done | Acceptenance Criteria |
 | ---------------- | ---------------- | ---------------- |
 | Gameplay loop | As a player, I want to receive 5-15 objectives each shift that require 2-5 minutes each to complete. <br> <br> So that i have a clear set of tasks that I can complete during the 30 minute shift. | A list of randomise objectives given to the player. <br> <br> Objectives can be completed within 30 minutes while still having enough free time to roam around and explore. <br><br> Objectives have different types like cleaning, npc quests, etc). <br> <br> Random events occuring at random. |
@@ -25,7 +39,7 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 | Shop | ---------------- | ---------------- |
 | ---------------- | ---------------- | ---------------- |
 
-## System Requirements
+## 1.2 System Requirements
 | System Requirement | What needs to be done | Acceptenance Criteria |
 | ---------------- | ---------------- | ---------------- |
 | Day and night System | As a developer, I want a day and night system acting as a round system to give players a break. So that it feels like a real job | Day and night must last 30 minutes combined. By the end of the day the players get a paycheck. |
@@ -34,12 +48,12 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 | Entity Mood system | As a developer, Entities contained in a cell will have a 0-100% chance of escaping the cell. The chance is manipulated based on the action revolving around the Entity interaction. So that Entities don't just stay in place the whole day, they have a chance to escape so players have to monitor the entities while balancing time to do objectives| 3 things to change the chances, those 3 things are also the main task to complete. 1. Players can send test to see its beheaviour, this will increase chances, 2. To feed entities, decrease chance, 3 is chatting which can increase and decrease chance |
 | ---------------- | ---------------- | ---------------- |
 
-# Backlog
+# 2.0 Backlog
 ### Product Backlog
 <img width="978" height="710" alt="image" src="https://github.com/user-attachments/assets/debe93fd-f134-47c2-8c9d-21a074cb28d9" />
 
-## Sprint Backlog
-### Week 1-2 Review
+## 2.1 Sprint Backlog
+### 2.1.1 Week 1-2 Review
 
 **6th February 2026 - 20th February**
 
@@ -67,7 +81,7 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 + Burnout
 + Lack of time 
 
-### Week 3-4 Review
+### 2.1.2 Week 3-4 Review
 
 **21 February 2026 - 7th March 2026 **
 
@@ -95,7 +109,7 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 + Ai Pathfinding
 + Lack of time
 
-### Week 5 Review
+### 2.1.3Week 5 Review
 
 **7 February 2026 - 14th March 2026**
 
@@ -110,15 +124,15 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 **Problem faced**
 
 
-# Project Design
+# 3.0 Project Design
 
 This is the part where the design choices for creating the game are made.
 Exploring the overall design, devleopment strategies, the game story, characters, encironment, levels, gameplay and more.
 
 ---
 
-## Overall Design
-### Atmosphere
+## 3.1 Overall Design
+### 3.1.1 Atmosphere
 + The Game will be a horror simulator game, with objectives to do and creatures roaming around.
 + Every time a player dies they experience consequences.
 
@@ -130,7 +144,7 @@ Agile/Scrum methodology
 The Project will follow the agile Methodology. Using Scrum Framework.
 Agile Methodology is used in software development. Where people focus in delivering small parts of the projects and thinking
 
-### Game Story
+### 3.1.2 Game Story
 
 
 Once in a peaceful world, suddenly turned chaotic during an eclipse. As creatures began manifesting from the dark. Causing terror across the globe. Humanity military were deployed to deal with the new threeat, all attempts were in vain as the creatures were too vast in numbers and powers. Causing humanity to create an Organization called the (CRC) to Contain, Research and Combat the creatures found in the world in hopes to restore peace in the world. 
@@ -142,7 +156,7 @@ Combat: Combat all entities for a better future
 
 
 
-### Characters
+### 3.1.3 Characters
 
 
 
@@ -243,7 +257,7 @@ Info
 
 ---
 
-### Reward & Challenges
+### 3.1.4 Reward & Challenges
 
 <h4><u>Rewards</u></h4>
 
@@ -299,15 +313,19 @@ Each entity will have a risk of escaping **(RIE)** value that is 1-100. The RIE 
 
 ---
 
-### Game rules
+### 3.1.5 Game rules
 
 
 
-### State Diagram
+### 3.1.6 State Diagram
 
-### Programming & Platform
+### 3.1.7 Programming & Platform
 
-### Map
+LUAU a customise version of LUA
+
+On the platform Roblox. A storage filled with thousands of games created by many. 
+
+### 3.1.8 Map
 <img width="1293" height="791" alt="image" src="https://github.com/user-attachments/assets/c3004389-9b71-479a-9998-c469ac0a712b" />
 ### Extra
 
@@ -322,12 +340,19 @@ Each entity will have a risk of escaping **(RIE)** value that is 1-100. The RIE 
 
 
 
-# Project Management
+# 4.0 Project Management
 
 Input Backlog, meetings
 sprint backlog?
+### 4.1 Test plan
 
-# Tools used
+Two Types of Test
+Manual: Requires User Input to activate
+Automatic: Can be activated with no issue.
+# 5.0 Tools used
+
+For logging Backlog, and what needs to be done. I used Jira.
+
 
 The game was created on the Platform called "Roblox". Where thousands of games created by millions are stored in Roblox Servers. The way players create games is through Roblox Studio, a 3d Space where players can build anything and code with the customised lanaguage of LUA created by Roblox called LUAU.
 
@@ -335,11 +360,8 @@ Game engine: LUAU used by Roblox
 
 Game Hosted: Roblox Platform
 
-# Test plan
+# 6.0 Test 
 
-Two Types of Test
-Manual: Requires User Input to activate
-Automatic: Can be activated with no issue.
 | What's being tested | How is it being tested | What should happen | What actually happened | Evidence | Comment |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | Database | Joining | When joining it creates data for the player | Done exactly like that | <img width="1478" height="651" alt="image" src="https://github.com/user-attachments/assets/8b132417-1b69-46f8-974d-f482e3592dd6" /> <br> <br>  <img width="710" height="600" alt="image" src="https://github.com/user-attachments/assets/3a97a951-1f66-43ea-aea6-bf84a4b9cabf" /> | N/A |
