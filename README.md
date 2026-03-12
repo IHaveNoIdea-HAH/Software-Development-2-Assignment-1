@@ -8,7 +8,8 @@ The game I'm developing is a horror simulator game where you work inside a gover
 Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation which is a fictiona organization that contains stories from writiers contributing to a wiki contain different creatures.
 
 ## Table of Contents
-- [User & System Requirements](#User/System-Requirements)
+- [1.0 User & System Requirements](#User/System-Requirements)
+  - [1.0 User Requirements](#User-Requirements)
 - [Section Two](#section-two)
 - [Section Three](#section-three)
 
