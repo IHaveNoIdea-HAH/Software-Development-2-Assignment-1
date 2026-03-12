@@ -110,6 +110,8 @@ So I can be engaged with the game and have something to do
 ---
 
 | | |
+
+| | |
 |---|---|
 | **Title** | Shop |
 | **Sprint #** | 1 |
@@ -126,8 +128,36 @@ So I have a goal to keep playing the game and to make it more fun.
 - The shop must be able to take away money from the player
 - The shop must give items in store to the player
 
+### Story
+As a player, I want to use the money I obtained through to gain items
+
+So I have a goal to keep playing the game and to make it more fun.
+
+### Definition of Done
+- The shop must be able to take away money from the player
+- The shop must give items in store to the player
+
 
 ## 1.2 System Requirements
+
+
+| | |
+|---|---|
+| **Title** | Shop |
+| **Sprint #** | 1 |
+| **Priority** | Low |
+| **Difficulty** | Medium |
+| **Story Points** | 3 |
+
+### Story
+As a player, I want to use the money I obtained through to gain items
+
+So I have a goal to keep playing the game and to make it more fun.
+
+### Definition of Done
+- The shop must be able to take away money from the player
+- The shop must give items in store to the player
+
 | System Requirement | What needs to be done | Acceptenance Criteria |
 | ---------------- | ---------------- | ---------------- |
 | Day and night System | As a developer, I want a day and night system acting as a round system to give players a break. So that it feels like a real job | Day and night must last 30 minutes combined. By the end of the day the players get a paycheck. |
