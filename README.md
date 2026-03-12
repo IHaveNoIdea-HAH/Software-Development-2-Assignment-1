@@ -69,25 +69,63 @@ So I can learn more about the world building and hidden lore. As well as to lear
 | **Title** | Enemies |
 | **Sprint #** | 1 |
 | **Priority** |  High |
-| **Difficulty** | MEDIUM / Low High |
+| **Difficulty** | Low High |
 | **Story Points** | 5 |
 
 ### Story
-As a player, I want Enemies that chase around the player,
+As a player, I want Enemies that chase around the player, and attack me
+
+So I have to be checking my surrounding at all times if an enemy is hunting me down.
 ### Definition of Done
--  Certain NPC can be interacted with
--  Some NPC may give tasks to do
--  Entities can be talk to as well.
+- AI walks to waypoints
+- Follows players when they are nearby
+- Attacks player when close enough
+
 
 ---
 
-| User Requirement | What needs to be done | Acceptenance Criteria |
-| ---------------- | ---------------- | ---------------- |
+---
 
-| Enemies | Enemies that chase the player when in a certain distance, and attacks players. When no players, roam around the map | AI walks, Roams around, follows players, attacks player by damaging |
-| Objectives | A list of objectives players can do to get paid at the end | A list of Side Tasks, Main Tasks, Extra Tasks |
-| Shop | ---------------- | ---------------- |
-| ---------------- | ---------------- | ---------------- |
+| | |
+|---|---|
+| **Title** | Objectives |
+| **Sprint #** | 1 |
+| **Priority** | Medium |
+| **Difficulty** | MediuM |
+| **Story Points** | 5 |
+
+### Story
+As a player, I want a list of objectives players can do to get paid at the end.
+
+So I can be engaged with the game and have something to do
+
+
+### Definition of Done
+- Objectives being Side tasks, Main tasks, Extra Tasks.
+- Side and Main tasks being given from the system
+- Extra Tasks given by npc
+
+---
+
+---
+
+| | |
+|---|---|
+| **Title** | Shop |
+| **Sprint #** | 1 |
+| **Priority** | Low |
+| **Difficulty** | Medium |
+| **Story Points** | 3 |
+
+### Story
+As a player, I want to use the money I obtained through to gain items
+
+So I have a goal to keep playing the game and to make it more fun.
+
+### Definition of Done
+- The shop must be able to take away money from the player
+- The shop must give items in store to the player
+
 
 ## 1.2 System Requirements
 | System Requirement | What needs to be done | Acceptenance Criteria |
