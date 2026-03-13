@@ -9,8 +9,9 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 
 ## Table of Contents
 - [1.0 User & System Requirements](#10-usersystem-requirements)
-  - [1.0 User Requirements](#11-user-requirements)
-- [Section Two](#section-two)
+  - [1.1 User Requirements](#11-user-requirements)
+  - [1.2 System Requirements](#12-system-requirements)
+- [2.0 Backlo](#section-)
 - [Section Three](#section-three)
 
 
@@ -129,43 +130,93 @@ So I have a goal to keep playing the game and to make it more fun.
 - The shop must be able to take away money from the player
 - The shop must give items in store to the player
 
-### Story
-As a player, I want to use the money I obtained through to gain items
-
-So I have a goal to keep playing the game and to make it more fun.
-
-### Definition of Done
-- The shop must be able to take away money from the player
-- The shop must give items in store to the player
-
 
 ## 1.2 System Requirements
 
 
 | | |
 |---|---|
-| **Title** | Shop |
+| **Title** | Day and night System |
 | **Sprint #** | 1 |
-| **Priority** | Low |
-| **Difficulty** | Medium |
-| **Story Points** | 3 |
+| **Priority** | Medium |
+| **Difficulty** | Low Medium |
+| **Story Points** | 5 |
 
 ### Story
-As a player, I want to use the money I obtained through to gain items
+As a developer, I want a day and night system acting as a round system to give players a break. So that it feels like a real job
 
 So I have a goal to keep playing the game and to make it more fun.
 
 ### Definition of Done
-- The shop must be able to take away money from the player
-- The shop must give items in store to the player
+- Day and night must last 30 minutes combined.
+- By the end of the day the players get a paycheck.
 
-| System Requirement | What needs to be done | Acceptenance Criteria |
-| ---------------- | ---------------- | ---------------- |
-| Day and night System | As a developer, I want a day and night system acting as a round system to give players a break. So that it feels like a real job | Day and night must last 30 minutes combined. By the end of the day the players get a paycheck. |
-| Paycheck | As a developer, I want a paycheck that occurs at the end of the day, depending on how many objectives they completed. If the player fails to complete half of the objectives they get punished. So it gives reason for players to do objectives instead of doing nothing, and to reward those that do all the objectives | Total of objectives the player has will be half and rounded up to the highest number is the total of objetives they need to complete. The punishment must be punishing enough to emit fear but fair enough. |
-| Database | As a developer, I want to store players data on Roblox Servers through using their api. So I can make players data to be used in game. Example: Money, that will be used in shops. | Data being stored, can be retrieved, and is separate for every other player. |
-| Entity Mood system | As a developer, Entities contained in a cell will have a 0-100% chance of escaping the cell. The chance is manipulated based on the action revolving around the Entity interaction. So that Entities don't just stay in place the whole day, they have a chance to escape so players have to monitor the entities while balancing time to do objectives| 3 things to change the chances, those 3 things are also the main task to complete. 1. Players can send test to see its beheaviour, this will increase chances, 2. To feed entities, decrease chance, 3 is chatting which can increase and decrease chance |
-| ---------------- | ---------------- | ---------------- |
+---
+
+---
+
+| | |
+|---|---|
+| **Title** | Punishment & Reward System |
+| **Sprint #** | 1 |
+| **Priority** | Low |
+| **Difficulty** | Eay |
+| **Story Points** | 3 |
+
+### Story
+As a developer, I want a paycheck that occurs at the end of the day, depending on how many objectives they completed. If the player fails to complete half of the objectives they get punished. 
+
+So it gives reason for players to do objectives instead of doing nothing, and to reward those that do all the objectives
+### Definition of Done
+- Total of objectives the player has will be half and rounded up to the highest number is the total of objetives they need to complete.
+- The punishment must be cruel enough but fair enough.
+
+---
+
+---
+
+| | |
+|---|---|
+| **Title** | Punishment & Reward System |
+| **Sprint #** | 1 |
+| **Priority** | Low |
+| **Difficulty** | Eay |
+| **Story Points** | 3 |
+
+### Story
+As a developer, I want to store players data on Roblox Servers through using their API
+
+So I can make players data to be used in game. Example: Money, that will be used in shops and other things.
+
+### Definition of Done
+- Data being stored, can be retrieved, and is separate for every other player. 
+
+---
+
+---
+
+| | |
+|---|---|
+| **Title** | Entities Mood System |
+| **Sprint #** | 1 |
+| **Priority** | Low |
+| **Difficulty** | Eay |
+| **Story Points** | 3 |
+
+### Story
+As a developer, Entities contained in a cell will have a 0-100% chance of escaping the cell. The chance is manipulated based on the action revolving around the Entity interaction. 
+
+So that Entities don't just stay in place the whole day, they have a chance to escape so players have to monitor the entities while balancing time to do objectives
+
+### Definition of Done
+- 3 things to change the chances, those 3 things are also the main task to complete.
+- 1. Players can send test to see its beheaviour, this will increase chances
+- 2. To feed entities, decrease chance
+- 3. 3 is chatting which can increase and decrease chance |
+
+---
+
+---
 
 # 2.0 Backlog
 ### Product Backlog
