@@ -17,7 +17,12 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 
 # 1.0 User/System Requirements
 
+In this section. The User and System Requirements are explained in Scrum style user stories and Acceptenance requirements.
+
+
 ## 1.1 User requirements
+
+This section will explore the players needs and what should be expected when developing the game. 
 
 | | |
 |---|---|
@@ -25,7 +30,7 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 | **Sprint #** | 1 |
 | **Priority** | Very High |
 | **Difficulty** | MEDIUM |
-| **Story Points** | 5 |
+
 
 ### Story
 As a player, I want to receive 5-15 objectives each shift that require 2-5 minutes each to complete.
@@ -50,7 +55,6 @@ So that i have a clear set of tasks that I can complete during the 30 minute shi
 | **Sprint #** | 1 |
 | **Priority** |  High |
 | **Difficulty** | MEDIUM / Low High |
-| **Story Points** | 6 |
 
 ### Story
 As a player, I want to be capable of interacting with different characters inside the gamme.
@@ -72,7 +76,7 @@ So I can learn more about the world building and hidden lore. As well as to lear
 | **Sprint #** | 1 |
 | **Priority** |  High |
 | **Difficulty** | Low High |
-| **Story Points** | 5 |
+
 
 ### Story
 As a player, I want Enemies that chase around the player, and attack me
@@ -94,7 +98,6 @@ So I have to be checking my surrounding at all times if an enemy is hunting me d
 | **Sprint #** | 1 |
 | **Priority** | Medium |
 | **Difficulty** | MediuM |
-| **Story Points** | 5 |
 
 ### Story
 As a player, I want a list of objectives players can do to get paid at the end.
@@ -103,6 +106,7 @@ So I can be engaged with the game and have something to do
 
 
 ### Definition of Done
+.
 - Objectives being Side tasks, Main tasks, Extra Tasks.
 - Side and Main tasks being given from the system
 - Extra Tasks given by npc
@@ -119,7 +123,6 @@ So I can be engaged with the game and have something to do
 | **Sprint #** | 1 |
 | **Priority** | Low |
 | **Difficulty** | Medium |
-| **Story Points** | 3 |
 
 ### Story
 As a player, I want to use the money I obtained through to gain items
@@ -140,7 +143,7 @@ So I have a goal to keep playing the game and to make it more fun.
 | **Sprint #** | 1 |
 | **Priority** | Medium |
 | **Difficulty** | Low Medium |
-| **Story Points** | 5 |
+
 
 ### Story
 As a developer, I want a day and night system acting as a round system to give players a break. So that it feels like a real job
@@ -161,7 +164,7 @@ So I have a goal to keep playing the game and to make it more fun.
 | **Sprint #** | 1 |
 | **Priority** | Low |
 | **Difficulty** | Easy |
-| **Story Points** | 3 |
+
 
 ### Story
 As a developer, I want a paycheck that occurs at the end of the day, depending on how many objectives they completed. If the player fails to complete half of the objectives they get punished. 
@@ -181,7 +184,7 @@ So it gives reason for players to do objectives instead of doing nothing, and to
 | **Sprint #** | 1 |
 | **Priority** | Very High |
 | **Difficulty** | Medium |
-| **Story Points** | 3 |
+
 
 ### Story
 As a developer, I want to store players data on Roblox Servers through using their API
@@ -201,7 +204,7 @@ So I can make players data to be used in game. Example: Money, that will be used
 | **Sprint #** | 1 |
 | **Priority** | Low |
 | **Difficulty** | Eay |
-| **Story Points** | 3 |
+
 
 ### Story
 As a developer, Entities contained in a cell will have a 0-100% chance of escaping the cell. The chance is manipulated based on the action revolving around the Entity interaction. 
@@ -218,7 +221,7 @@ So that Entities don't just stay in place the whole day, they have a chance to e
 
 ---
 
-# 2.0 Backlog
+# 2.0 SCRUM Style Backlog
 ### Product Backlog
 <img width="978" height="710" alt="image" src="https://github.com/user-attachments/assets/debe93fd-f134-47c2-8c9d-21a074cb28d9" />
 
@@ -329,6 +332,23 @@ Combat: Combat all entities for a better future
 
 ### 3.1.4 Characters
 
+**Main Characters**
+
+| Name | Role | Info| 
+| --- | ---| ---|
+| The PLayer | Recruited Scientist | Recently Hired by the CRC |
+|Emily Forrest | Head Scientist | Responsible for managing the scientist |
+| Jack Uchi | Senior Security Guard | 
+| James Pello | Junior Security Guard | 
+| Sara Yuwilno | Junior Scientist | 
+
+**Facility Roles**
+
+| Role | What they'll do | Other info | 
+| --- | --- | --- | 
+|Scientist | Research entities and find out how to combat the entity long terms. | Normally responsible for cleaning the facility, other entities cell as well as delivering documents and testing entities |
+| Guard | Ensure the entities are contained and protect Scientist | All Security guards must sacarfise their lives if a scientist is endanger. |
+| Test Subject | To be test on entities | Death row inmates that were transferred and now to be tested on |
 
 
 
