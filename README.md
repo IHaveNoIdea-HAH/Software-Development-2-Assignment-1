@@ -160,7 +160,7 @@ So I have a goal to keep playing the game and to make it more fun.
 | **Title** | Punishment & Reward System |
 | **Sprint #** | 1 |
 | **Priority** | Low |
-| **Difficulty** | Eay |
+| **Difficulty** | Easy |
 | **Story Points** | 3 |
 
 ### Story
@@ -177,10 +177,10 @@ So it gives reason for players to do objectives instead of doing nothing, and to
 
 | | |
 |---|---|
-| **Title** | Punishment & Reward System |
+| **Title** | Database |
 | **Sprint #** | 1 |
-| **Priority** | Low |
-| **Difficulty** | Eay |
+| **Priority** | Very High |
+| **Difficulty** | Medium |
 | **Story Points** | 3 |
 
 ### Story
@@ -212,7 +212,7 @@ So that Entities don't just stay in place the whole day, they have a chance to e
 - 3 things to change the chances, those 3 things are also the main task to complete.
 - 1. Players can send test to see its beheaviour, this will increase chances
 - 2. To feed entities, decrease chance
-- 3. 3 is chatting which can increase and decrease chance |
+- 3. Chatting can increase and decrease chance 
 
 ---
 
@@ -302,11 +302,12 @@ Exploring the overall design, devleopment strategies, the game story, characters
 ---
 
 ## 3.1 Overall Design
+
 ### 3.1.1 Atmosphere
 + The Game will be a horror simulator game, with objectives to do and creatures roaming around.
 + Every time a player dies they experience consequences.
 
-### Development Strategy
+### 3.1.2 Development Strategy
 
 **Methodology: Agile/Scrum**
 
@@ -314,7 +315,7 @@ Agile/Scrum methodology
 The Project will follow the agile Methodology. Using Scrum Framework.
 Agile Methodology is used in software development. Where people focus in delivering small parts of the projects and thinking
 
-### 3.1.2 Game Story
+### 3.1.3 Game Story
 
 
 Once in a peaceful world, suddenly turned chaotic during an eclipse. As creatures began manifesting from the dark. Causing terror across the globe. Humanity military were deployed to deal with the new threeat, all attempts were in vain as the creatures were too vast in numbers and powers. Causing humanity to create an Organization called the (CRC) to Contain, Research and Combat the creatures found in the world in hopes to restore peace in the world. 
@@ -326,7 +327,7 @@ Combat: Combat all entities for a better future
 
 
 
-### 3.1.3 Characters
+### 3.1.4 Characters
 
 
 
@@ -427,7 +428,7 @@ Info
 
 ---
 
-### 3.1.4 Reward & Challenges
+### 3.1.5 Reward & Challenges
 
 <h4><u>Rewards</u></h4>
 
@@ -483,19 +484,23 @@ Each entity will have a risk of escaping **(RIE)** value that is 1-100. The RIE 
 
 ---
 
-### 3.1.5 Game rules
+### 3.1.6 Game rules
 
 
 
-### 3.1.6 State Diagram
+### 3.1.7 State Diagram
 
-### 3.1.7 Programming & Platform
+**Enemy AI**
+
+
+
+### 3.1.8 Programming & Platform
 
 LUAU a customise version of LUA
 
 On the platform Roblox. A storage filled with thousands of games created by many. 
 
-### 3.1.8 Map
+### 3.1.9 Map
 <img width="1293" height="791" alt="image" src="https://github.com/user-attachments/assets/c3004389-9b71-479a-9998-c469ac0a712b" />
 ### Extra
 
