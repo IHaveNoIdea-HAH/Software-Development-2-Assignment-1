@@ -11,7 +11,7 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 - [1.0 User & System Requirements](#10-usersystem-requirements)
   - [1.1 User Requirements](#11-user-requirements)
   - [1.2 System Requirements](#12-system-requirements)
-- [2.0 Backlo](#section-)
+- [2.0 Backlog](#20-backlog)
 - [Section Three](#section-three)
 
 
