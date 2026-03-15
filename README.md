@@ -304,6 +304,8 @@ So that players get a user input feedback
 **7 February 2026 - 14th March 2026**
 
 **What we completed**
+Redone paycheck
+Relocated to clickup instead of jira
 
 **Sprint Backlog**
 
@@ -312,7 +314,8 @@ So that players get a user input feedback
 **What's next**
 
 **Problem faced**
-
+The backlog in clickup incorrectly showcase the events that occured across the weeks the project took place in.
+Jira being too confusing to navigate and use. Ultimately leading to the migration to clickup
 
 # 3.0 Project Design
 
@@ -598,7 +601,7 @@ Automatic: Can be activated with no issue.
 
 # 5.0 Tools used
 
-## 5.1 Jira
+## 5.1 Clickup
 For logging Backlog, and what needs to be done. I used Jira.
 
 
@@ -610,19 +613,31 @@ Game engine: LUAU used by Roblox
 
 Game Hosted: Roblox Platform
 
+### 5.2.1 Tool bxx
+### 5.2.2 Properties
+### 5.2.3 Something else i forgot but all the serivces
 
 
 
 
 
-# 6.0 Test 
+# 6.0 Test (future self sort these into 3 categories System, Ai, Objectives and possibly more we are running out of time,the past is counting on you
 
 | What's being tested | How is it being tested | What should happen | What actually happened | Evidence | Comment |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | Database | Joining | When joining it creates data for the player | Done exactly like that | <img width="1478" height="651" alt="image" src="https://github.com/user-attachments/assets/8b132417-1b69-46f8-974d-f482e3592dd6" /> <br> <br>  <img width="710" height="600" alt="image" src="https://github.com/user-attachments/assets/3a97a951-1f66-43ea-aea6-bf84a4b9cabf" /> | N/A |
 | Database saving | Leaving and seeing if data been saved | When leaving a message in the server should say the data been saved. Checking the database the information should be updated | No Issue | <img width="982" height="69" alt="image" src="https://github.com/user-attachments/assets/cf3a092f-a1b3-4823-9c45-c342da9bfa7f" /> <br> <br> Before: <img width="644" height="398" alt="image" src="https://github.com/user-attachments/assets/b2a84381-966c-411c-91b6-e489d48da4f9" /> <br> <br> After: <img width="672" height="626" alt="image" src="https://github.com/user-attachments/assets/9f3de3b6-f704-4de5-871e-4c25dc5f0f3c" /> | ---------------- |
 | Day & Night System | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| Reward system | Waiting till the end of +day | ---------------- | ---------------- | ---------------- | ---------------- |
+| Reward system | Waiting till the end of day | ---------------- | ---------------- | ---------------- | ---------------- |
+| AI Walking to way point | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Paycheck | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| OBjective 1 Delivery | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Objective 3 Clean up puddle generation | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Objective 3 Completion | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| AI Chasing player | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+
 
