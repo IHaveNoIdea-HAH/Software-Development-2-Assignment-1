@@ -1,5 +1,27 @@
 # Software Development 2 Sprint 1 / Game Design Document
 
+
+hat needs to be done
+
+resort backlog
+
+create burndownnchart
+do the  card thing but in table, for backlog, alao finish user story for black explaining about each thing in backlog
+
+maybe add more characters
+
+
+complete backlog
+finih design
+uml flowchart map image input
+test
+complete tool used putting images of clickup and roblox studio
+also also excel maybe in this
+
+work on game gui and design the map
+
+goodluck me
+
 ## What is the Project about?
 
 The project is to develop a game.
