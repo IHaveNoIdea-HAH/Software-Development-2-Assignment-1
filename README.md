@@ -310,6 +310,8 @@ Exploring the overall design, devleopment strategies, the game story, characters
 + The Game will be a horror simulator game, with objectives to do and creatures roaming around.
 + Every time a player dies they experience consequences.
 
+---
+
 ### 3.1.2 Development Strategy
 
 **Methodology: Agile/Scrum**
@@ -318,10 +320,18 @@ Agile/Scrum methodology
 The Project will follow the agile Methodology. Using Scrum Framework.
 Agile Methodology is used in software development. Where people focus in delivering small parts of the projects and thinking
 
+--0
+
 ### 3.1.3 Game Story
 
+**Game Lore**
 
 Once in a peaceful world, suddenly turned chaotic during an eclipse. As creatures began manifesting from the dark. Causing terror across the globe. Humanity military were deployed to deal with the new threeat, all attempts were in vain as the creatures were too vast in numbers and powers. Causing humanity to create an Organization called the (CRC) to Contain, Research and Combat the creatures found in the world in hopes to restore peace in the world. 
+
+
+> [!NOTE]
+> This incident was named "The Eclipse Collapse" ever since the creatures manifested.
+
 
 CRC
 Contain: Contain all entities found in the wild.
@@ -391,11 +401,14 @@ E-134A
   Designation: E-134A (Designated number, Danger Level, Risk of Escaping, Classificatiion)
   <br><br>
   info:  <br>
+  
 E-134A is a humanoid shape figure covered in an unknown black liquid substance. 
 
 E-134A normally has skin attached to their body, the skin is from their last victim they stole it from. A unique property of E-134A is the skin it steals rot faster than normal.
 
 E-134A is generally docile. However when the skin decays to a certain degree, it will become hostile and hunt for humans, ignore animals unless attacked by one. When reaching its target, it will kill and take the skin and wear it. After enough skin has been collected, E-134A will become docile agaiin.
+
+The Skin Keeper was contained during the beginning of the Eclipse Collapse, found in a house, docile. It later escape containment during the time it's skin fully rotted.
 
 </details>
 
@@ -403,7 +416,7 @@ E-134A is generally docile. However when the skin decays to a certain degree, it
 
 ---
 
-Name: The Skinny Camoflauage
+Name: The Invisible Watcher
 
 Danger level: 3
 
@@ -416,7 +429,11 @@ Designation: E-233A
 
 Info:
 
-E-223A is a humanoid shape figure covered in an unknown black liquid substance. Skin Keeper normally has skin attached to their body, the skin is from their last victim they stole it from.
+E-223A is a tall and lanky humanoid figure, with their arms and torso being stretch than normal. E223A constantly disguises itself based on the surroundings it's in.
+
+E-223A has shown hostile behaviour to staff and had been violent during an outbreak in Site-██. Causing it to be relocated mutiple times.
+
+The Invisible watcher was captured in the Amazon Forest after 3 missing people suddenly appeared and warned of a tall creature. Task Force was dispatched and only a trapped creature was sent back as the rest of the Task Force were MIA.
 
 ---
 
@@ -432,6 +449,12 @@ Designation: E-311NA
 
 info:
 
+The wise Banana was brought into containment after a Scientist had predicted multiple events such as power outage, creatures escaping, and even large scale incidents that were to happen to cities.
+
+It was later found that the Scientist held a speaking Banana that predicted the future. The scientist had been put on administrative leave due to mishandling an entityy.
+
+E-311NA is an ordinary banana when ripen, and will slowly unpeel itself. When unpeeled with no human interference, a face will grow on the Banana and it will develop a mind of its own, often warning dangers of events that will happen before peeling itself and ripening again to repeat the cycle.
+
 ---
 
 Name: The unknown
@@ -444,7 +467,13 @@ Classified: Non-Animated
 
 Designation: E-441A
 
-Info
+Info:
+
+E-441a has no confirmed form on what it looks like. Any attempts on looking at the entity, directly or indirectly will make the viewer be forced to look away, this has been called the "Don't look effect" where no matter the life form, the head, eyes, or torso will be turned to look away no matter what. This includes to animals, robots, any concept of "looking".
+
+This has resulted in 93 casuality from employees alike, due to the "Don't Look" effect snapping their neck as their head is turned 180 degree.
+
+It's unknown how this Entity was brought into the custody of the CRC. Some Speculate that the facility was built around E-441A, while others say that E-441A teleported inside the cell.
 
 ---
 
