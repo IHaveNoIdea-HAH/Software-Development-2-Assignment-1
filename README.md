@@ -13,8 +13,6 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
   - [1.2 System Requirements](#12-system-requirements)
 - [2.0 Backlog](#20-backlog)
 - [Section Three](#section-three)
-
-
 # 1.0 User/System Requirements
 
 In this section. The User and System Requirements are explained in Scrum style user stories and Acceptenance requirements.
@@ -312,7 +310,7 @@ Exploring the overall design, devleopment strategies, the game story, characters
 
 ---
 
-### 3.1.2 Development Strategy
+### 3.2 Development Strategy
 
 **Methodology: Agile/Scrum**
 
@@ -320,9 +318,9 @@ Agile/Scrum methodology
 The Project will follow the agile Methodology. Using Scrum Framework.
 Agile Methodology is used in software development. Where people focus in delivering small parts of the projects and thinking
 
---0
+---
 
-### 3.1.3 Game Story
+### 3.3 Game Design
 
 **Game Lore**
 
@@ -340,7 +338,7 @@ Combat: Combat all entities for a better future
 
 
 
-### 3.1.4 Characters
+### 3.3.1 Characters
 
 **Main Characters**
 
@@ -477,7 +475,7 @@ It's unknown how this Entity was brought into the custody of the CRC. Some Specu
 
 ---
 
-### 3.1.5 Reward & Challenges
+### 3.3.2 Reward & Challenges
 
 <h4><u>Rewards</u></h4>
 
@@ -533,7 +531,7 @@ Each entity will have a risk of escaping **(RIE)** value that is 1-100. The RIE 
 
 ---
 
-### 3.1.6 Game rules
+### 3.3.3 Game rules
 
 
 
@@ -573,6 +571,7 @@ sprint backlog?
 Two Types of Test
 Manual: Requires User Input to activate
 Automatic: Can be activated with no issue.
+
 # 5.0 Tools used
 
 For logging Backlog, and what needs to be done. I used Jira.
