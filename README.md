@@ -114,8 +114,6 @@ So I can be engaged with the game and have something to do
 ---
 
 | | |
-
-| | |
 |---|---|
 | **Title** | Shop |
 | **Sprint #** | 1 |
@@ -201,7 +199,7 @@ So I can make players data to be used in game. Example: Money, that will be used
 | **Title** | Entities Mood System |
 | **Sprint #** | 1 |
 | **Priority** | Low |
-| **Difficulty** | Eay |
+| **Difficulty** | Easy |
 
 
 ### Story
@@ -214,6 +212,27 @@ So that Entities don't just stay in place the whole day, they have a chance to e
 - 1. Players can send test to see its beheaviour, this will increase chances
 - 2. To feed entities, decrease chance
 - 3. Chatting can increase and decrease chance 
+
+---
+
+---
+
+| | |
+|---|---|
+| **Title** | Audio System |
+| **Sprint #** | 1 |
+| **Priority** | Medium |
+| **Difficulty** | Medium |
+
+
+### Story
+As a developer, I want an audio system that plays the appropriate audio when a certain action or scenario occurs.
+
+So that players get a user input feedback
+
+### Definition of Done
+- Plays audio
+
 
 ---
 
@@ -298,7 +317,7 @@ So that Entities don't just stay in place the whole day, they have a chance to e
 # 3.0 Project Design
 
 This is the part where the design choices for creating the game are made.
-Exploring the overall design, devleopment strategies, the game story, characters, encironment, levels, gameplay and more.
+Exploring the Game design, devleopment strategies, the game story, characters, encironment, levels, gameplay and more.
 
 ---
 
@@ -535,20 +554,25 @@ Each entity will have a risk of escaping **(RIE)** value that is 1-100. The RIE 
 
 
 
-### 3.1.7 State Diagram
+### 3.4 State Diagram
 
 **Enemy AI**
 
+<img width="804" height="1125" alt="Image" src="https://github.com/user-attachments/assets/d981a23c-0329-496f-b30e-34cfb7203c42" />
+
+**Quest Design**
 
 
-### 3.1.8 Programming & Platform
+### 3.5 Programming & Platform
 
 LUAU a customise version of LUA
 
 On the platform Roblox. A storage filled with thousands of games created by many. 
 
-### 3.1.9 Map
+### 3.6 Map
 <img width="1293" height="791" alt="image" src="https://github.com/user-attachments/assets/c3004389-9b71-479a-9998-c469ac0a712b" />
+
+
 ### Extra
 
 <details>
@@ -574,14 +598,22 @@ Automatic: Can be activated with no issue.
 
 # 5.0 Tools used
 
+## 5.1 Jira
 For logging Backlog, and what needs to be done. I used Jira.
 
+
+## 5.2 Roblox Studio:
 
 The game was created on the Platform called "Roblox". Where thousands of games created by millions are stored in Roblox Servers. The way players create games is through Roblox Studio, a 3d Space where players can build anything and code with the customised lanaguage of LUA created by Roblox called LUAU.
 
 Game engine: LUAU used by Roblox
 
 Game Hosted: Roblox Platform
+
+
+
+
+
 
 # 6.0 Test 
 
@@ -590,5 +622,7 @@ Game Hosted: Roblox Platform
 | Database | Joining | When joining it creates data for the player | Done exactly like that | <img width="1478" height="651" alt="image" src="https://github.com/user-attachments/assets/8b132417-1b69-46f8-974d-f482e3592dd6" /> <br> <br>  <img width="710" height="600" alt="image" src="https://github.com/user-attachments/assets/3a97a951-1f66-43ea-aea6-bf84a4b9cabf" /> | N/A |
 | Database saving | Leaving and seeing if data been saved | When leaving a message in the server should say the data been saved. Checking the database the information should be updated | No Issue | <img width="982" height="69" alt="image" src="https://github.com/user-attachments/assets/cf3a092f-a1b3-4823-9c45-c342da9bfa7f" /> <br> <br> Before: <img width="644" height="398" alt="image" src="https://github.com/user-attachments/assets/b2a84381-966c-411c-91b6-e489d48da4f9" /> <br> <br> After: <img width="672" height="626" alt="image" src="https://github.com/user-attachments/assets/9f3de3b6-f704-4de5-871e-4c25dc5f0f3c" /> | ---------------- |
 | Day & Night System | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Reward system | Waiting till the end of +day | ---------------- | ---------------- | ---------------- | ---------------- |
+| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 
