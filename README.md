@@ -624,8 +624,8 @@ Automatic: Can be activated with no issue.
 # 5.0 Tools used
 
 ## 5.1 Clickup
-For logging Backlog, and what needs to be done. I used Jira.
 
+For creating the Backlog, I used Clickup after switching from Jira.
 
 ## 5.2 Roblox Studio:
 
@@ -635,9 +635,76 @@ Game engine: LUAU used by Roblox
 
 Game Hosted: Roblox Platform
 
-### 5.2.1 Tool bxx
-### 5.2.2 Properties
-### 5.2.3 Something else i forgot but all the serivces
+### 5.2.1 Roblox Tools
+
+Roblox Studio offers a wide range of tools. However, there is very few that are actually important
+
+<img width="1579" height="137" alt="Image" src="https://github.com/user-attachments/assets/7a3728e7-e456-43ac-a571-d74edcba72f7" />
+
+
+
+**Important**:
+
+Select: Selects models and parts. Highlighting the selected parts.
+
+<img width="278" height="190" alt="Image" src="https://github.com/user-attachments/assets/1aa775f0-fd1d-4b2a-8582-6a39918dd854" />
+
+Move: Moves the selected part across the Y, X and Z Axis.
+
+<img width="308" height="286" alt="Image" src="https://github.com/user-attachments/assets/c307acb7-2c7c-4712-934c-c0ebf2844b7f" />
+
+Scale: Resizes Selected Parts across the Y, X and Z Axis
+
+<img width="291" height="228" alt="Image" src="https://github.com/user-attachments/assets/b161443f-a751-42b2-9131-ba82570dcb4e" />
+
+Rotate: Rotate selected parts in a 360 degree across the Y, X and Z Axis
+
+<img width="287" height="288" alt="Image" src="https://github.com/user-attachments/assets/b0c6e704-5673-452f-b172-92dfd4c4f0be" />
+
+Part: Different parts for building
+
+<img width="181" height="280" alt="Image" src="https://github.com/user-attachments/assets/e825292e-4a33-4b64-a7f0-3c0fefb48752" />
+
+GUI: GUI for players
+
+<img width="146" height="238" alt="Image" src="https://github.com/user-attachments/assets/e384cd51-1925-4da1-a1f6-a220c4f960bd" />
+
+Scripts: For coding
+
+<img width="164" height="191" alt="Image" src="https://github.com/user-attachments/assets/87635ff7-b015-42a3-9f76-a8355349ec39" />
+
+---
+
+### 5.2.2 Explorer
+
+Explorer holds different service creators can use to build their game.
+
+However, we'll list the more important Services
+
+<img width="284" height="384" alt="Image" src="https://github.com/user-attachments/assets/a320287c-166d-48b8-b338-223170a5b733" />
+
+
+
+Workspace: Responsible for the 3d space players
+
+Players: Responsible for keeping track of player name and data
+
+Lighting: Responsible for how the workspace looks
+
+ReplicatedStorage: Things that need to be replicated multiple times
+
+ServerScriptService: Cannot be access locally. responsible for holding scripts that effect the entire server
+
+StarterGUI: the GUI that will show up when joining if enabled
+
+StarterPlayer: Responsible for holding the local scripts.
+
+
+### 5.2.3 Properties
+
+Properties holds the instances of the selected item.
+
+<img width="608" height="548" alt="Image" src="https://github.com/user-attachments/assets/f0db5072-1bc4-42d0-8e17-390c831b18de" />
 
 
 
