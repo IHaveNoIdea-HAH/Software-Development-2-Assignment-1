@@ -261,85 +261,49 @@ So that players get a user input feedback
 ---
 
 # 2.0 SCRUM Style Backlog
-### Product Backlog
-<img width="978" height="710" alt="image" src="https://github.com/user-attachments/assets/debe93fd-f134-47c2-8c9d-21a074cb28d9" />
 
-## 2.1 Sprint Backlog
-### 2.1.1 Week 1-2 Review
+## 2.1 Clickup board:
 
-**6th February 2026 - 20th February**
+<img width="835" height="884" alt="Image" src="https://github.com/user-attachments/assets/4c8a895f-b32c-4953-a99f-eb7030603f94" />
 
-**What we completed**
-
-**Sprint Backlog**
-+ Objectives
-+ PayCheck
-+ DataBase
-
-**In general**
-+ Objectives Generation
-+ Database to store player information
-+ Increased Objectives
-+ Day and Night System
-+ Round System
-+ PayCheck
-
-**What's next**
-+ NPC Creation
-+ Better AI
-
-**Problems faced**
-+ Pathfinding
-+ Burnout
-+ Lack of time 
-
-### 2.1.2 Week 3-4 Review
-
-**21 February 2026 - 7th March 2026 **
-
-**What we completed**
-+ UI showing objective
-
-
-**Sprint Backlog**
+## 2.2 Backlog
+| ID | Title | Points | Priority | User Story | Definition of Done | Status |
+|---|---|---|---|---|---|---|
+| 1 | Database to store player data | 9 | High| | | COMPLETE |
+| 2 | Objective generation | 5 | Normaal | | | COMPLETE |
+| 3 | Night and day to represent a round system |5 | Medium  | | | COMPLETE |
+| 4 | NPC Simple Monster AI | 5 | Normal | | | COMPLETE |
+| 5 | Paycheck | 3 | Low | | | COMPLETE |
+| 6 | Creation of map | 7 | High | | |  IN PROGRESS |
+| 7 | Creation of UI | 5 | Normal | | | COMPLETE  |
+| 8 | Multiple Monster | 7 |High | | IN PROGRESS |
+| 9 | punishment and reward system | 3 | low | | | IN PROGRESS |
+| 10 | Interactive AI to talk to | 6 | High | text |  text | TO DO |
+| 11 | Shop System | 3 | low | | TO DO |
+| 12 | Unique Monster AI | 7 | High |t  | t| TO DO |
+| 13 | NPC Giving mini quests | 2 | Low| t|  t| TO DO |
+| 14 | NPC Scientist walking to waypoints | 5 | Normal  | t|t | TO DO |
+| 15 | Audio System | 5 | Medium| As a developer, I want an audio system that plays the appropriate audio when a certain action or scenario occurs. <br> <br>So that players get a user input feedback | Plays audio at the correct time | TO DO |
+| 16 | Animation of AI |5 | Normal | | | TO DO |
 
 
 
-**In general**
-+ Made objectives be connected to the UI
-+ Completed a bit of the map
 
 
-**What's next**
-+ NPC Giving side quests
-+ Rework AI Pathfinding
-+ Complete more of the map
-+ Script more objectives.
 
 
-**Problem faced**
-+ Ai Pathfinding
-+ Lack of time
 
-### 2.1.3 Week 5 Review
 
-**7 February 2026 - 14th March 2026**
 
-**What we completed**
-Redone paycheck
-Relocated to clickup instead of jira
 
-**Sprint Backlog**
 
-**In general**
 
-**What's next**
 
-**Problem faced**
-The backlog in clickup incorrectly showcase the events that occured across the weeks the project took place in.
-Jira being too confusing to navigate and use. Ultimately leading to the migration to clickup
 
-# 3.0 Project Design
+
+
+
+
 
 This is the part where the design choices for creating the game are made.
 Exploring the Game design, devleopment strategies, the game story, characters, encironment, levels, gameplay and more.
@@ -612,6 +576,69 @@ On the platform Roblox. A storage filled with thousands of games created by many
 
 
 # 4.0 Project Management
+
+## 4.1 Backlog Revie 
+### 2.1.1 Week 1-2 Review
+
+**6th February 2026 - 20th February**
+
+**What we completed**
+
+**Sprint Backlog**
++ Objectives
++ PayCheck
++ DataBase
+
+**In general**
++ Objectives Generation
++ Database to store player information
++ Increased Objectives
++ Day and Night System
++ Round System
++ PayCheck
+
+**What's next**
++ NPC Creation
++ Better AI
+
+**Problems faced**
++ Pathfinding
+
+
+
+**In general**
++ Made objectives be connected to the UI
++ Completed a bit of the map
+
+
+**What's next**
++ NPC Giving side quests
++ Rework AI Pathfinding
++ Complete more of the map
++ Script more objectives.
+
+
+**Problem faced**
++ Ai Pathfinding
++ Lack of time
+
+### 2.1.3 Week 5 Review
+
+**7 February 2026 - 14th March 2026**
+
+**What we completed**
+Redone paycheck
+Relocated to clickup instead of jira
+
+**Sprint Backlog**
+
+**In general**
+
+**What's next**
+
+**Problem faced**
+The backlog in clickup incorrectly showcase the events that occured across the weeks the project took place in.
+Jira being too confusing to navigate and use. Ultimately leading to the migration to clickup
 
 Input Backlog, meetings
 sprint backlog?
