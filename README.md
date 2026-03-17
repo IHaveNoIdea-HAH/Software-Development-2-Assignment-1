@@ -33,8 +33,11 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 - [1.0 User & System Requirements](#10-usersystem-requirements)
   - [1.1 User Requirements](#11-user-requirements)
   - [1.2 System Requirements](#12-system-requirements)
-- [2.0 Backlog](#20-backlog)
-- [Section Three](#section-three)
+- [2.0 Backlog](#20-scrum-style-backlog)
+  - [2.1 Clickup Board](#section-three)
+  - [2.1 Clickup Board](#section-three)
+
+
 # 1.0 User/System Requirements
 
 In this section. The User and System Requirements are explained in Scrum style user stories and Acceptenance requirements.
@@ -257,7 +260,7 @@ So that players get a user input feedback
 
 
 ---
-
+player movement they cant jump but they sprint
 ---
 
 # 2.0 SCRUM Style Backlog
@@ -272,7 +275,8 @@ So that players get a user input feedback
 | 1 | Database to store player data | 9 | High| As a developer, I want to store players data on Roblox Servers through using their API <br> <br> So I can make players data to be used in game. Example: Money, that will be used in shops and other things.| Data being stored, can be retrieved, and is separate for every other player.  | COMPLETE |
 | 2 | Objective generation | 5 | Normal | As a developer, I want my game to generate a list of objective for players to complete. So that players have mini goal to reach | Objectives being Side tasks, Main tasks, Extra Tasks. <br> <Br> Side and Main tasks being given from the system <br> <br> Extra Tasks given by npc | COMPLETE |
 | 3 | Night and day to represent a round system |5 | Medium  |As a developer, I want a day and night system acting as a round system to give players a break. So that it feels like a real job <br> <br>So I have a goal to keep playing the game and to make it more fun. | Day and night must last 30 minutes combined.| COMPLETE |
-| 4 | NPC Simple Monster AI | 5 | Normal | | | COMPLETE |
+| 4 | NPC Simple Monster AI | 5 | Normal | As a developer, I want an AI that has simple functions such as roaming, chasing and attacking. <br><br> So that there's a threat players should look out for | Monster walks to set waypoint. <br><br> If player is nearby, chase them. <br><br> If player is close enough, damage them |
+COMPLETE |
 | 5 | Paycheck | 3 | Low |As a developer, I want a paycheck that is given at the end of the day, depending on how many objectives they completed. If the player fails to complete half of the objectives they get punished and rewards reduced. <br> <br> So it gives reason for players to do objectives instead of doing nothing, and to reward those that do all the objectives | | COMPLETE |
 | 6 | Creation of map | 7 | High | As a developer, I want a map that players can walk on instead of the default baseplate. So that players are more immersed into the game. | Must be Facility Lab Style. <br><br>Must have 1 floor in sprint 1 |  IN PROGRESS |
 | 7 | Creation of UI | 5 | Normal | | | COMPLETE  |
@@ -288,31 +292,18 @@ So that players get a user input feedback
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 This is the part where the design choices for creating the game are made.
 Exploring the Game design, devleopment strategies, the game story, characters, encironment, levels, gameplay and more.
 
 ---
 
-## 3.1 Overall Design
+# 3.0 Overall Design
 
-### 3.1.1 Atmosphere
+This is the part where the design choices for creating the game are made.
+
+Exploring the Game design, devleopment strategies, the game story, characters, encironment, levels, gameplay and more.
+
+### 3.1 Atmosphere
 + The Game will be a horror simulator game, with objectives to do and creatures roaming around.
 + Every time a player dies they experience consequences.
 
