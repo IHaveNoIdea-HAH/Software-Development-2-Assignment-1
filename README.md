@@ -62,19 +62,19 @@ In this section. The User and System Requirements are explained in Scrum style u
 
 ## 1.1 User requirements
 
-This section will explore the players needs and what should be expected when developing the game. 
-
+**This section will explore the players needs and what should be expected when developing the game.**
 | | |
 |---|---|
-| **Title** | Gameplay loop |
+| **Title** | Gameplay Loop |
 | **Sprint #** | 1 |
-| **Priority** | Very High |
+| **Priority** |  High |
 | **Difficulty** | MEDIUM |
 
 
 ### Story
 As a player, I want to receive 5-15 objectives each shift that require 2-5 minutes each to complete.
 As well as a Reward and Punishment system..
+
 
 So that i have a clear set of tasks that I can complete during the 30 minute shift. And a goal to reach while trying to be efficient with time 
 
@@ -84,6 +84,27 @@ So that i have a clear set of tasks that I can complete during the 30 minute shi
 -  Random events occuring at random wihthin the 30 minute time.
 -  Objectives have two types. Objectivee given by System and NPC Quests.
 -  By the end of the day players are rewarded or punished based on performance.
+
+---
+
+---
+
+
+| | |
+|---|---|
+| **Title** | Player Movement |
+| **Sprint #** | 1 |
+| **Priority** | Very High |
+| **Difficulty** | MEDIUM |
+
+
+### Story
+As a player, I want to be capable of sprinting
+
+So that i can run
+
+### Definition of Done
+-  Players walkspeed increase when inputting a button
 
 ---
 
@@ -134,7 +155,7 @@ So I have to be checking my surrounding at all times if an enemy is hunting me d
 
 | | |
 |---|---|
-| **Title** | Objectives |-----cang
+| **Title** | Objectives |-----can
 | **Sprint #** | 1 |
 | **Priority** | Medium |
 | **Difficulty** | MediuM |
@@ -393,6 +414,12 @@ Final Designation: E-111A
 
 E-134A
 
+Made by: ⋆౨ eheg ৎ˚ 
+
+<img width="861" height="484" alt="image" src="https://github.com/user-attachments/assets/a3f8c4e3-ecef-439d-baf3-baf18e23ec97" />
+
+
+
 <details>
   
   
@@ -427,6 +454,12 @@ The Skin Keeper was contained during the beginning of the Eclipse Collapse, foun
 
 E-223A
 
+Made by: ⋆౨ eheg ৎ˚ 
+
+<img width="861" height="484" alt="image" src="https://github.com/user-attachments/assets/f150ed5c-c079-42c1-8278-f933cf037e52" />
+
+
+
 <details>
   
   
@@ -456,6 +489,12 @@ The Invisible watcher was captured in the Amazon Forest after 3 missing people s
 
 E-311NA
 
+Made by: ⋆౨ eheg ৎ˚ 
+
+<img width="861" height="484" alt="image" src="https://github.com/user-attachments/assets/2770c5b8-c8ee-4601-b0be-e28801871850" />
+
+
+
 <details>
   
   
@@ -484,6 +523,8 @@ E-311NA is an ordinary banana when ripen, and will slowly unpeel itself. When un
 ---
 
 E-441NA
+
+No image were provided due to the properities.
 
 <details>
   
@@ -567,9 +608,6 @@ Each entity will have a risk of escaping **(RIE)** value that is 1-100. The RIE 
 
 ---
 
-### 3.3.3 Game rules
-
-
 
 ### 3.4 State Diagram
 
@@ -585,13 +623,13 @@ Each entity will have a risk of escaping **(RIE)** value that is 1-100. The RIE 
 <img width="392" height="934" alt="Image" src="https://github.com/user-attachments/assets/1c665ac6-6aa0-4c2b-8b0c-cb6f1af5585a" />
 
 
-### 3.5 Programming & Platform
+## 3.5 Programming & Platform
 
 LUAU a customise version of LUA
 
 On the platform Roblox. A storage filled with thousands of games created by many. 
 
-### 3.6 Map
+## 3.6 Map
 <img width="1293" height="791" alt="image" src="https://github.com/user-attachments/assets/c3004389-9b71-479a-9998-c469ac0a712b" />
 
 
@@ -600,7 +638,7 @@ On the platform Roblox. A storage filled with thousands of games created by many
 # 4.0 Project Management
 
 ## 4.1 Backlog Revie 
-### 2.1.1 Week 1-2 Review
+### 4.1.1 Week 1-2 Review
 
 **6th February 2026 - 20th February**
 
@@ -644,7 +682,37 @@ On the platform Roblox. A storage filled with thousands of games created by many
 + Ai Pathfinding
 + Lack of time
 
-### 2.1.3 Week 5 Review
+---
+
+### 4.1. Week 3-4 Review  
+
+**21 February 2026 - 7th March 2026 **
+
+**What we completed**
++ UI showing objective
+
+
+**Sprint Backlog**
+
+**In general**
++ Made objectives be connected to the UI
++ Completed a bit of the map
+
+
+**What's next**
++ NPC Giving side quests
++ Rework AI Pathfinding
++ Complete more of the map
++ Script more objectives.
+
+
+**Problem faced**
++ Ai Pathfinding
++ Lack of time
+
+---
+
+### 4.1.3 Week 5 Review
 
 **7 February 2026 - 14th March 2026**
 
@@ -664,7 +732,13 @@ Jira being too confusing to navigate and use. Ultimately leading to the migratio
 
 Input Backlog, meetings
 sprint backlog?
-### 4.1 Test plan
+
+## 4.2 Burndown Chart
+
+
+---
+
+## 4.3 Test plan
 
 Two Types of Test
 Manual: Requires User Input to activate
@@ -764,11 +838,12 @@ Properties holds the instances of the selected item.
 | What's being tested | How is it being tested | What should happen | What actually happened | Evidence | Comment |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | Database | Joining | When joining it creates data for the player | Done exactly like that | <img width="1478" height="651" alt="image" src="https://github.com/user-attachments/assets/8b132417-1b69-46f8-974d-f482e3592dd6" /> <br> <br>  <img width="710" height="600" alt="image" src="https://github.com/user-attachments/assets/3a97a951-1f66-43ea-aea6-bf84a4b9cabf" /> | N/A |
-| Database saving | Leaving and seeing if data been saved | When leaving a message in the server should say the data been saved. Checking the database the information should be updated | No Issue | <img width="982" height="69" alt="image" src="https://github.com/user-attachments/assets/cf3a092f-a1b3-4823-9c45-c342da9bfa7f" /> <br> <br> Before: <img width="644" height="398" alt="image" src="https://github.com/user-attachments/assets/b2a84381-966c-411c-91b6-e489d48da4f9" /> <br> <br> After: <img width="672" height="626" alt="image" src="https://github.com/user-attachments/assets/9f3de3b6-f704-4de5-871e-4c25dc5f0f3c" /> | ---------------- |
-| Day & Night System | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| Reward system | Waiting till the end of day | ---------------- | ---------------- | ---------------- | ---------------- |
+| Database saving | Leaving and seeing if data been saved | When leaving a message in the server should say the data been saved. Checking the database the information should be updated | No Issue | <img width="982" height="69" alt="image" src="https://github.com/user-attachments/assets/cf3a092f-a1b3-4823-9c45-c342da9bfa7f" /> <br> <br> Before: <img width="644" height="398" alt="image" src="https://github.com/user-attachments/assets/b2a84381-966c-411c-91b6-e489d48da4f9" /> <br> <br> After: <img width="672" height="626" alt="image" src="https://github.com/user-attachments/assets/9f3de3b6-f704-4de5-871e-4c25dc5f0f3c" /> | N/A |
+| Day & Night System | Waitig | Turned day and night at the correct | Done as intended | <img width="980" height="351" alt="image" src="https://github.com/user-attachments/assets/38c99b16-dce3-4b1a-a454-ebb4cb7c77f6" /> <img width="1275" height="624" alt="image" src="https://github.com/user-attachments/assets/7c8407a2-0c6f-4eec-967e-dd7f27e5ca76" />| N/A |
+| Objective generation | PLaying the game and seeing the console | Generates objective | Generated a list of objective | <img width="930" height="495" alt="image" src="https://github.com/user-attachments/assets/ff5cfc84-73f6-42c0-a9dc-c4c521c7065b" /> | N/A |
+| GUI  | Pressing a button to showcase objectives | Shows gui when pressing button | No issues | <img width="1064" height="588" alt="image" src="https://github.com/user-attachments/assets/0b03682a-4f7d-41a3-ae50-b9a64328f4aa" /> | GUI show be reworked |
+| Reward/Paycheck system | Waiting till the end of day | Show gui of the reward based on objective done |  Some weird issue where rewards are still given despite doing no objectives. It's unknown what's the cause.  | <img width="588" height="565" alt="image" src="https://github.com/user-attachments/assets/9ebc4fcc-f789-49cb-8870-f26300456f22" /> <img width="563" height="565" alt="image" src="https://github.com/user-attachments/assets/867177ef-a049-4fad-a503-f07c98b80a57" />  | Further investigation is needed. |
 | AI Walking to way point | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| Paycheck | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | OBjective 1 Delivery | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | Objective 3 Clean up puddle generation | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | Objective 3 Completion | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
