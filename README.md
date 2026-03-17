@@ -1,6 +1,6 @@
 # Software Development 2 Sprint 1 / Game Design Document
 
-## What is the Project about?
+## What is the Project about? 
 
 The project is to develop a game.
 The game I'm developing is a horror simulator game where you work inside a government facility as scientist. In a world filled with different creaures your goal is to research said creatures contained in the facility while doing objectives.
