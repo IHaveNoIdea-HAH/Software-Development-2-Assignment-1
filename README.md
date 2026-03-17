@@ -23,18 +23,21 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
   - [3.4 State Diagram](#34-state-diagram)
   - [3.5 Programming & Platform](#35-programming--platform)
   - [3.6 Map](#36-map)
+  - [3.7 UI Mockup](#37-UI-mockup)
 - [4.0 Project Management](#40-project-management)
-  - [4.1 Backlog review](#22-backlog-review)
-    - [4.1.1 Backlog](#22-backlog)
-    - [4.1.2 Backlog](#22-backlog)
-    - [4.1.3 Backlog](#22-backlog)
-  - [4.1 Backlog review](#22-backlog-review)
-  - [4.1 Backlog review](#22-backlog-review)
-- [4.1 Backlog review](#22-backlog-review)
-  - [4.1 Backlog review](#22-backlog-review)
-  - [4.1 Backlog review](#22-backlog-review)
-
-  
+  - [4.1 Backlog review](#41-backlog-review)
+    - [4.1.1 Week 1-2 Review](#411-week-1-2-review)
+    - [4.1.2 Week 3-4 Review](#412-week-3-4-review)
+    - [4.1.3 Week 5 Review](#413-week-5-review)
+  - [4.2 Burndown Chart](#42-burndown-chart)
+  - [4.3 Test Plan](#43-test-plan)
+- [5.0 Tools Used](#50-tools-used)
+  - [5.1 Clickup](#51-clickup)
+  - [5.2 Roblox Studio](#52-roblox-studio)
+    - [5.2.1 Roblox Tools](#521-roblox-tools)
+    - [5.2.2 Explorer](#522-explorer)
+    - [5.2.3 Properties](#523-properties)
+- [6.0 Test](#60-test)
 
 
 # 1.0 User/System Requirements
@@ -321,6 +324,7 @@ Exploring the Game design, devleopment strategies, the game story, characters, e
 ### 3.1 Atmosphere
 + The Game will be a horror simulator game, with objectives to do and creatures roaming around.
 + Every time a player dies they experience consequences.
++ Semi-Realistic
 
 ---
 
@@ -328,9 +332,11 @@ Exploring the Game design, devleopment strategies, the game story, characters, e
 
 **Methodology: Agile/Scrum**
 
-Agile/Scrum methodology
 The Project will follow the agile Methodology. Using Scrum Framework.
-Agile Methodology is used in software development. Where people focus in delivering small parts of the projects and thinking
+
+Agile Methodology is used in software development. Where people focus in delivering small parts of the projects and making changes as they review. 
+
+Scrum is when you check what has been done, what they'll do next and if there was any blockers
 
 ---
 
@@ -350,6 +356,9 @@ Contain: Contain all entities found in the wild.
 Research: Research all information about the entities.
 Combat: Combat all entities for a better future
 
+<img width="674" height="720" alt="image" src="https://github.com/user-attachments/assets/d05b2b1d-efcf-4cb5-89e8-bc0653dcea94" />
+
+
 
 
 ### 3.3.1 Characters
@@ -360,16 +369,16 @@ Combat: Combat all entities for a better future
 | --- | ---| ---|
 | The PLayer | Recruited Scientist | Recently Hired by the CRC |
 |Emily Forrest | Head Scientist | Responsible for managing the scientist |
-| Jack Uchi | Senior Security Guard | 
-| James Pello | Junior Security Guard | 
-| Sara Yuwilno | Junior Scientist | 
+| Jack Uchi | Senior Security Guard | Responsible for guarding the facility |
+| James Pello | Junior Security Guard | Responsible for guarding the facility |
+| Sara Yuwilno | Junior Scientist | To research and objectives |
 
 **Facility Roles**
 
 | Role | What they'll do | Other info | 
 | --- | --- | --- | 
 |Scientist | Research entities and find out how to combat the entity long terms. | Normally responsible for cleaning the facility, other entities cell as well as delivering documents and testing entities |
-| Guard | Ensure the entities are contained and protect Scientist | All Security guards must sacarfise their lives if a scientist is endanger. |
+| Security Guard | Ensure the entities are contained and protect Scientist | All Security guards must sacarfise their lives if a scientist is endanger. |
 | Test Subject | To be test on entities | Death row inmates that were transferred and now to be tested on |
 
 
@@ -620,9 +629,25 @@ LUAU a customise version of LUA
 On the platform Roblox. A storage filled with thousands of games created by many. 
 
 ## 3.6 Map
+
+Floor 1:
+
 <img width="1293" height="791" alt="image" src="https://github.com/user-attachments/assets/c3004389-9b71-479a-9998-c469ac0a712b" />
 
+Floor 2:
 
+<img width="1670" height="939" alt="image" src="https://github.com/user-attachments/assets/f52d3af9-e01b-498e-a599-b8a08fd6c917" />
+
+## 3.7 UI Mockup
+
+MENU:
+
+<img width="1236" height="684" alt="image" src="https://github.com/user-attachments/assets/a2f836c1-eda2-4268-ba7a-073352c37093" />
+
+
+ENTITY INFORMATION:
+
+<img width="1236" height="684" alt="image" src="https://github.com/user-attachments/assets/1c79735b-f2e3-4bb1-ba3c-5762977ab5be" />
 
 
 # 4.0 Project Management
@@ -704,9 +729,14 @@ Not enough time in general to fix every bug found. Due to other assignments
 
 ## 4.3 Test plan
 
-Two Types of Test
-Manual: Requires User Input to activate
-Automatic: Can be activated with no issue.
+The test will be separated into three categories
+
+System: Anything that occurs in the system directly will be categories here
+
+AI: Anything related to the AI such as waypoint, movement, attacking.
+
+Objectives: Objectives similar to the system. However, it solely must revolve around the objectives
+
 
 # 5.0 Tools used
 
@@ -717,7 +747,7 @@ For creating the Backlog, I used Clickup after switching from Jira.
 <img width="908" height="578" alt="image" src="https://github.com/user-attachments/assets/3546e61f-a2de-4e2e-9b20-ca0257ac0f1c" />
 
 
-## 5.2 Roblox Studio:
+## 5.2 Roblox Studio
 
 The game was created on the Platform called "Roblox". Where thousands of games created by millions are stored in Roblox Servers. The way players create games is through Roblox Studio, a 3d Space where players can build anything and code with the customised lanaguage of LUA created by Roblox called LUAU.
 
@@ -802,22 +832,37 @@ Properties holds the instances of the selected item.
 
 # 6.0 Test (future self sort these into 3 categories System, Ai, Objectives and possibly more we are running out of time,the past is counting on you
 
+
+## System
 | What's being tested | How is it being tested | What should happen | What actually happened | Evidence | Comment |
 | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | Database | Joining | When joining it creates data for the player | Done exactly like that | <img width="1478" height="651" alt="image" src="https://github.com/user-attachments/assets/8b132417-1b69-46f8-974d-f482e3592dd6" /> <br> <br>  <img width="710" height="600" alt="image" src="https://github.com/user-attachments/assets/3a97a951-1f66-43ea-aea6-bf84a4b9cabf" /> | N/A |
 | Database saving | Leaving and seeing if data been saved | When leaving a message in the server should say the data been saved. Checking the database the information should be updated | No Issue | <img width="982" height="69" alt="image" src="https://github.com/user-attachments/assets/cf3a092f-a1b3-4823-9c45-c342da9bfa7f" /> <br> <br> Before: <img width="644" height="398" alt="image" src="https://github.com/user-attachments/assets/b2a84381-966c-411c-91b6-e489d48da4f9" /> <br> <br> After: <img width="672" height="626" alt="image" src="https://github.com/user-attachments/assets/9f3de3b6-f704-4de5-871e-4c25dc5f0f3c" /> | N/A |
 | Day & Night System | Waitig | Turned day and night at the correct | Done as intended | <img width="980" height="351" alt="image" src="https://github.com/user-attachments/assets/38c99b16-dce3-4b1a-a454-ebb4cb7c77f6" /> <img width="1275" height="624" alt="image" src="https://github.com/user-attachments/assets/7c8407a2-0c6f-4eec-967e-dd7f27e5ca76" />| N/A |
+| Reward/Paycheck system | Waiting till the end of day | Show gui of the reward based on objective done |  Some weird issue where rewards are still given despite doing no objectives. It's unknown what's the cause.  | <img width="588" height="565" alt="image" src="https://github.com/user-attachments/assets/9ebc4fcc-f789-49cb-8870-f26300456f22" /> <img width="563" height="565" alt="image" src="https://github.com/user-attachments/assets/867177ef-a049-4fad-a503-f07c98b80a57" />  | Further investigation is needed. |
+
+
+---
+
+
+## AI
+| What's being tested | How is it being tested | What should happen | What actually happened | Evidence | Comment |
+| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| AI Walking to way point | The AI roams around reaching certain points | Caculates a pathway and move the waypoint | Stops every time they reach a point | <img width="723" height="274" alt="image" src="https://github.com/user-attachments/assets/125c124b-bdca-49de-898e-11de8d0a8f2b" /> | Issue been fixed |
+| AI Chasing player | A player nearby AI | Chase player | Chase player but stops for unknown reason | <img width="703" height="329" alt="image" src="https://github.com/user-attachments/assets/fa778154-4b17-407d-8f98-08d01581d199" /> | More research requirde |
+
+
+---
+
+
+## Objective
+| What's being tested | How is it being tested | What should happen | What actually happened | Evidence | Comment |
+| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | Objective generation | PLaying the game and seeing the console | Generates objective | Generated a list of objective | <img width="930" height="495" alt="image" src="https://github.com/user-attachments/assets/ff5cfc84-73f6-42c0-a9dc-c4c521c7065b" /> | N/A |
 | GUI  | Pressing a button to showcase objectives | Shows gui when pressing button | No issues | <img width="1064" height="588" alt="image" src="https://github.com/user-attachments/assets/0b03682a-4f7d-41a3-ae50-b9a64328f4aa" /> | GUI show be reworked |
-| Reward/Paycheck system | Waiting till the end of day | Show gui of the reward based on objective done |  Some weird issue where rewards are still given despite doing no objectives. It's unknown what's the cause.  | <img width="588" height="565" alt="image" src="https://github.com/user-attachments/assets/9ebc4fcc-f789-49cb-8870-f26300456f22" /> <img width="563" height="565" alt="image" src="https://github.com/user-attachments/assets/867177ef-a049-4fad-a503-f07c98b80a57" />  | Further investigation is needed. |
-| AI Walking to way point | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| OBjective 1 Delivery | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| Objective 3 Clean up puddle generation | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| Objective 3 Completion | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| AI Chasing player | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
-| ---------------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| OBjective 1 Delivery | When completing the objectives. You can't complete more than required | Value of the objective is enabled and you can't enable any more | Done as intended | <img width="457" height="516" alt="image" src="https://github.com/user-attachments/assets/b8c3264e-55da-46f9-8dfd-b83b503298ae" />| Need further enhancing |
+| Objective 3 Clean up puddle generation | Generates puddle in spots | Generates 10 puddles | puddles generated with no issue | <img width="457" height="295" alt="image" src="https://github.com/user-attachments/assets/33c1d3b1-4870-4caa-8fda-5c3bc67928a8" /> | N/A |
+| Objective 3 Completion | Collecting all puddles | Says you completed with no issue | done as intended | <img width="579" height="41" alt="image" src="https://github.com/user-attachments/assets/57ec3e62-5061-4490-88a8-a767f5b78521" /> | N/A |
+
 
 
