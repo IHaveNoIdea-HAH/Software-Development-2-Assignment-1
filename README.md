@@ -3,8 +3,6 @@
 
 hat needs to be done
 
-resort backlog
-
 create burndownnchart
 do the  card thing but in table, for backlog, alao finish user story for black explaining about each thing in backlog
 
@@ -34,8 +32,27 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
   - [1.1 User Requirements](#11-user-requirements)
   - [1.2 System Requirements](#12-system-requirements)
 - [2.0 Backlog](#20-scrum-style-backlog)
-  - [2.1 Clickup Board](#section-three)
-  - [2.1 Clickup Board](#section-three)
+  - [2.1 Clickup Board](#21-clickup-board)
+  - [2.2 Backlog](#22-backlog)
+- [2.0 Backlog](#20-scrum-style-backlog)
+  - [2.2 Backlog](#22-backlog)
+  - [2.2 Backlog](#22-backlog)
+  - [2.2 Backlog](#22-backlog)
+  - [2.2 Backlog](#22-backlog)
+    - [2.2 Backlog](#22-backlog)
+    - [2.2 Backlog](#22-backlog)
+    - [2.2 Backlog](#22-backlog)
+  - [2.2 Backlog](#22-backlog)
+  - [2.2 Backlog](#22-backlog)
+  - [2.2 Backlog](#22-backlog)
+- [2.2 Backlog](#22-backlog)
+  - [2.2 Backlog](#22-backlog)
+    - [2.2 Backlog](#22-backlog)
+    - [2.2 Backlog](#22-backlog)
+    - [2.2 Backlog](#22-backlog)
+    
+
+  
 
 
 # 1.0 User/System Requirements
@@ -290,10 +307,6 @@ player movement they cant jump but they sprint
 | 16 | Animation of AI |5 | Normal | As a developer I want an Animation Handler <br> <br> So when AI or players move or do an action, it plays an animation enhancing the player experience.| Plays animation| TO DO |
 
 
-
-This is the part where the design choices for creating the game are made.
-Exploring the Game design, devleopment strategies, the game story, characters, encironment, levels, gameplay and more.
-
 ---
 
 # 3.0 Overall Design
@@ -412,6 +425,13 @@ The Skin Keeper was contained during the beginning of the Eclipse Collapse, foun
 
 ---
 
+E-223A
+
+<details>
+  
+  
+  <summary>Click to expand</summary>
+  <br>
 Name: The Invisible Watcher
 
 Danger level: 3
@@ -430,8 +450,17 @@ E-223A is a tall and lanky humanoid figure, with their arms and torso being stre
 E-223A has shown hostile behaviour to staff and had been violent during an outbreak in Site-██. Causing it to be relocated mutiple times.
 
 The Invisible watcher was captured in the Amazon Forest after 3 missing people suddenly appeared and warned of a tall creature. Task Force was dispatched and only a trapped creature was sent back as the rest of the Task Force were MIA.
+</details>
 
 ---
+
+E-311NA
+
+<details>
+  
+  
+  <summary>Click to expand</summary>
+  <br>
 
 Name: The Wise Banana
 
@@ -450,9 +479,17 @@ The wise Banana was brought into containment after a Scientist had predicted mul
 It was later found that the Scientist held a speaking Banana that predicted the future. The scientist had been put on administrative leave due to mishandling an entityy.
 
 E-311NA is an ordinary banana when ripen, and will slowly unpeel itself. When unpeeled with no human interference, a face will grow on the Banana and it will develop a mind of its own, often warning dangers of events that will happen before peeling itself and ripening again to repeat the cycle.
+</details>
 
 ---
 
+E-441NA
+
+<details>
+  
+  
+  <summary>Click to expand</summary>
+  <br>
 Name: The unknown
 
 Danger level: 4
@@ -461,7 +498,7 @@ Risk of escaping: 1
 
 Classified: Non-Animated
 
-Designation: E-441A
+Designation: E-441NA
 
 Info:
 
@@ -470,6 +507,7 @@ E-441a has no confirmed form on what it looks like. Any attempts on looking at t
 This has resulted in 93 casuality from employees alike, due to the "Don't Look" effect snapping their neck as their head is turned 180 degree.
 
 It's unknown how this Entity was brought into the custody of the CRC. Some Speculate that the facility was built around E-441A, while others say that E-441A teleported inside the cell.
+</details>
 
 ---
 
@@ -556,17 +594,6 @@ On the platform Roblox. A storage filled with thousands of games created by many
 ### 3.6 Map
 <img width="1293" height="791" alt="image" src="https://github.com/user-attachments/assets/c3004389-9b71-479a-9998-c469ac0a712b" />
 
-
-### Extra
-
-<details>
-  <summary>Click to expand</summary>
-  
-  This content is hidden until clicked.
-  
-  You can put **markdown** here too!
-
-</details>
 
 
 
