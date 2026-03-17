@@ -545,7 +545,7 @@ It's unknown how this Entity was brought into the custody of the CRC. Some Specu
 
 ### 3.3.2 Reward & Challenges
 
-<h4><u>Rewards</u></h4>
+<h><u>Rewards</u></h1>
 
 Players are given a random amount of objectives to do.
 
@@ -572,7 +572,7 @@ These don't give much reward. However there's more objectives than main.
 
 
 
-<h1><u>Requests</u></h1>
+**Requests**
 
 These are objectives that are given by NPC and are specific to their respected NPC.
 
