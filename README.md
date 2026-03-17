@@ -114,7 +114,7 @@ So I have to be checking my surrounding at all times if an enemy is hunting me d
 
 | | |
 |---|---|
-| **Title** | Objectives |
+| **Title** | Objectives |-----cang
 | **Sprint #** | 1 |
 | **Priority** | Medium |
 | **Difficulty** | MediuM |
@@ -137,7 +137,7 @@ So I can be engaged with the game and have something to do
 
 | | |
 |---|---|
-| **Title** | Shop |
+| **Title** | Shop |chan
 | **Sprint #** | 1 |
 | **Priority** | Low |
 | **Difficulty** | Medium |
@@ -157,7 +157,7 @@ So I have a goal to keep playing the game and to make it more fun.
 
 | | |
 |---|---|
-| **Title** | Day and night System |
+| **Title** | Day and night System |chan
 | **Sprint #** | 1 |
 | **Priority** | Medium |
 | **Difficulty** | Low Medium |
@@ -178,7 +178,7 @@ So I have a goal to keep playing the game and to make it more fun.
 
 | | |
 |---|---|
-| **Title** | Punishment & Reward System |
+| **Title** | Punishment & Reward System |---chan
 | **Sprint #** | 1 |
 | **Priority** | Low |
 | **Difficulty** | Easy |
@@ -241,7 +241,7 @@ So that Entities don't just stay in place the whole day, they have a chance to e
 
 | | |
 |---|---|
-| **Title** | Audio System |
+| **Title** | Audio System |---
 | **Sprint #** | 1 |
 | **Priority** | Medium |
 | **Difficulty** | Medium |
@@ -269,12 +269,12 @@ So that players get a user input feedback
 ## 2.2 Backlog
 | ID | Title | Points | Priority | User Story | Definition of Done | Status |
 |---|---|---|---|---|---|---|
-| 1 | Database to store player data | 9 | High| | | COMPLETE |
-| 2 | Objective generation | 5 | Normaal | | | COMPLETE |
-| 3 | Night and day to represent a round system |5 | Medium  | | | COMPLETE |
+| 1 | Database to store player data | 9 | High| As a developer, I want to store players data on Roblox Servers through using their API <br> <br> So I can make players data to be used in game. Example: Money, that will be used in shops and other things.| Data being stored, can be retrieved, and is separate for every other player.  | COMPLETE |
+| 2 | Objective generation | 5 | Normal | As a developer, I want my game to generate a list of objective for players to complete. So that players have mini goal to reach | Objectives being Side tasks, Main tasks, Extra Tasks. <br> <Br> Side and Main tasks being given from the system <br> <br> Extra Tasks given by npc | COMPLETE |
+| 3 | Night and day to represent a round system |5 | Medium  |As a developer, I want a day and night system acting as a round system to give players a break. So that it feels like a real job <br> <br>So I have a goal to keep playing the game and to make it more fun. | Day and night must last 30 minutes combined.| COMPLETE |
 | 4 | NPC Simple Monster AI | 5 | Normal | | | COMPLETE |
-| 5 | Paycheck | 3 | Low | | | COMPLETE |
-| 6 | Creation of map | 7 | High | | |  IN PROGRESS |
+| 5 | Paycheck | 3 | Low |As a developer, I want a paycheck that is given at the end of the day, depending on how many objectives they completed. If the player fails to complete half of the objectives they get punished and rewards reduced. <br> <br> So it gives reason for players to do objectives instead of doing nothing, and to reward those that do all the objectives | | COMPLETE |
+| 6 | Creation of map | 7 | High | As a developer, I want a map that players can walk on instead of the default baseplate. So that players are more immersed into the game. | Must be Facility Lab Style. <br><br>Must have 1 floor in sprint 1 |  IN PROGRESS |
 | 7 | Creation of UI | 5 | Normal | | | COMPLETE  |
 | 8 | Multiple Monster | 7 |High | | IN PROGRESS |
 | 9 | punishment and reward system | 3 | low | | | IN PROGRESS |
@@ -284,7 +284,7 @@ So that players get a user input feedback
 | 13 | NPC Giving mini quests | 2 | Low| t|  t| TO DO |
 | 14 | NPC Scientist walking to waypoints | 5 | Normal  | t|t | TO DO |
 | 15 | Audio System | 5 | Medium| As a developer, I want an audio system that plays the appropriate audio when a certain action or scenario occurs. <br> <br>So that players get a user input feedback | Plays audio at the correct time | TO DO |
-| 16 | Animation of AI |5 | Normal | | | TO DO |
+| 16 | Animation of AI |5 | Normal | As a developer I want an Animation Handler <br> <br> So when AI or players move or do an action, it plays an animation enhancing the player experience.| Plays animation| TO DO |
 
 
 
@@ -549,7 +549,12 @@ Each entity will have a risk of escaping **(RIE)** value that is 1-100. The RIE 
 
 <img width="804" height="1125" alt="Image" src="https://github.com/user-attachments/assets/d981a23c-0329-496f-b30e-34cfb7203c42" />
 
-**Quest Design**
+
+
+**Game Loop**
+
+
+<img width="392" height="934" alt="Image" src="https://github.com/user-attachments/assets/1c665ac6-6aa0-4c2b-8b0c-cb6f1af5585a" />
 
 
 ### 3.5 Programming & Platform
