@@ -1,25 +1,5 @@
 # Software Development 2 Sprint 1 / Game Design Document
 
-
-hat needs to be done
-
-create burndownnchart
-do the  card thing but in table, for backlog, alao finish user story for black explaining about each thing in backlog
-
-maybe add more characters
-
-
-complete backlog
-finih design
-uml flowchart map image input
-test
-complete tool used putting images of clickup and roblox studio
-also also excel maybe in this
-
-work on game gui and design the map
-
-goodluck me
-
 ## What is the Project about?
 
 The project is to develop a game.
@@ -34,23 +14,25 @@ Inspired by Lobotomy Corporation created by Project Moon and SCP Foundation whic
 - [2.0 Backlog](#20-scrum-style-backlog)
   - [2.1 Clickup Board](#21-clickup-board)
   - [2.2 Backlog](#22-backlog)
-- [2.0 Backlog](#20-scrum-style-backlog)
-  - [2.2 Backlog](#22-backlog)
-  - [2.2 Backlog](#22-backlog)
-  - [2.2 Backlog](#22-backlog)
-  - [2.2 Backlog](#22-backlog)
-    - [2.2 Backlog](#22-backlog)
-    - [2.2 Backlog](#22-backlog)
-    - [2.2 Backlog](#22-backlog)
-  - [2.2 Backlog](#22-backlog)
-  - [2.2 Backlog](#22-backlog)
-  - [2.2 Backlog](#22-backlog)
-- [2.2 Backlog](#22-backlog)
-  - [2.2 Backlog](#22-backlog)
-    - [2.2 Backlog](#22-backlog)
-    - [2.2 Backlog](#22-backlog)
-    - [2.2 Backlog](#22-backlog)
-    
+- [3.0 Overall Design](#30-overall-design)
+  - [3.1 Atmosphere](#31-atmosphere)
+  - [3.2 Development Strategy](#32-development-strategy)
+  - [3.3 Game Design](#33-game-design)
+    - [3.3.1 Characters](#331-characters)
+    - [3.3.2 reward & challenges](#332-reward--challenge)
+  - [3.4 State Diagram](#34-state-diagram)
+  - [3.5 Programming & Platform](#35-programming--platform)
+  - [3.6 Map](#36-map)
+- [4.0 Project Management](#40-project-management)
+  - [4.1 Backlog review](#22-backlog-review)
+    - [4.1.1 Backlog](#22-backlog)
+    - [4.1.2 Backlog](#22-backlog)
+    - [4.1.3 Backlog](#22-backlog)
+  - [4.1 Backlog review](#22-backlog-review)
+  - [4.1 Backlog review](#22-backlog-review)
+- [4.1 Backlog review](#22-backlog-review)
+  - [4.1 Backlog review](#22-backlog-review)
+  - [4.1 Backlog review](#22-backlog-review)
 
   
 
@@ -560,11 +542,15 @@ Players are given a random amount of objectives to do.
 
 Objectives are combined into three categories.
 
+
+
 **Main Objectives**
 
 These objectives mainly revolve around the entities.
 
 They give higher rwards when completed.
+
+
 
 
 **Side Objectives**
@@ -575,7 +561,9 @@ It includes cleaning around the facility, restocking supplies, etc.
 
 These don't give much reward. However there's more objectives than main.
 
-**Requests**
+
+
+<h1><u>Requests</u></h1>
 
 These are objectives that are given by NPC and are specific to their respected NPC.
 
@@ -593,7 +581,9 @@ The Consequence occur when
 
 If any of these occur, your "RiskOfFiring" will be increased by one
 
-The consequences is getting you money taken away and you getting kicked from the game if you cannot pay back the amount of value you owe --REDO THIS PART FUTURE ME
+The consequences is getting the money of each objective you failed decreasing the total value of your money.
+
+If it reaches below 0, kicks player out of game.
 
 **Entities**
 
@@ -637,19 +627,13 @@ On the platform Roblox. A storage filled with thousands of games created by many
 
 # 4.0 Project Management
 
-## 4.1 Backlog Revie 
+## 4.1 Backlog Review
 ### 4.1.1 Week 1-2 Review
 
 **6th February 2026 - 20th February**
 
 **What we completed**
 
-**Sprint Backlog**
-+ Objectives
-+ PayCheck
-+ DataBase
-
-**In general**
 + Objectives Generation
 + Database to store player information
 + Increased Objectives
@@ -663,38 +647,16 @@ On the platform Roblox. A storage filled with thousands of games created by many
 
 **Problems faced**
 + Pathfinding
-
-
-
-**In general**
-+ Made objectives be connected to the UI
-+ Completed a bit of the map
-
-
-**What's next**
-+ NPC Giving side quests
-+ Rework AI Pathfinding
-+ Complete more of the map
-+ Script more objectives.
-
-
-**Problem faced**
-+ Ai Pathfinding
-+ Lack of time
+There were problems with the pathfinding, AI stopped every few seconds when reaching a waypoint
 
 ---
 
-### 4.1. Week 3-4 Review  
+### 4.1.2 Week 3-4 Review  
 
 **21 February 2026 - 7th March 2026 **
 
 **What we completed**
 + UI showing objective
-
-
-**Sprint Backlog**
-
-**In general**
 + Made objectives be connected to the UI
 + Completed a bit of the map
 
@@ -708,7 +670,10 @@ On the platform Roblox. A storage filled with thousands of games created by many
 
 **Problem faced**
 + Ai Pathfinding
+There were still trouble when chasing the players.
+
 + Lack of time
+Not enough time to dedicate in fixing pathfinding. Focus has been shifted to other things.
 
 ---
 
@@ -717,24 +682,23 @@ On the platform Roblox. A storage filled with thousands of games created by many
 **7 February 2026 - 14th March 2026**
 
 **What we completed**
-Redone paycheck
-Relocated to clickup instead of jira
-
-**Sprint Backlog**
-
-**In general**
++ Redone paycheck
++ Relocated to clickup instead of jira
++ Increase GUI for Game.
++ Added more tasks
 
 **What's next**
+Until next sprint. Polishing what we have currently
 
 **Problem faced**
 The backlog in clickup incorrectly showcase the events that occured across the weeks the project took place in.
-Jira being too confusing to navigate and use. Ultimately leading to the migration to clickup
+Jira being too confusing to navigate and use. Ultimately leading to the migration to clickup.
 
-Input Backlog, meetings
-sprint backlog?
+Not enough time in general to fix every bug found. Due to other assignments
 
 ## 4.2 Burndown Chart
 
+<img width="907" height="426" alt="image" src="https://github.com/user-attachments/assets/e889c010-14c1-42f6-ab35-e02c852bb717" />
 
 ---
 
@@ -749,6 +713,9 @@ Automatic: Can be activated with no issue.
 ## 5.1 Clickup
 
 For creating the Backlog, I used Clickup after switching from Jira.
+
+<img width="908" height="578" alt="image" src="https://github.com/user-attachments/assets/3546e61f-a2de-4e2e-9b20-ca0257ac0f1c" />
+
 
 ## 5.2 Roblox Studio:
 
